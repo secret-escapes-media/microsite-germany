@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container container--xxl vpad--xxl text--center">
+  {{page.intro}}
+</div>
+
+
+<div class="vpad--xxl bg--grey-lightest">
+  <div class="container">
+    <div class="row row--6-6">
+      {% assign grouppages = site.html_pages | where:"group-parent", page.id %}
+      {% for grouppage in grouppages %}
+      <div class="col">
+        <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{grouppage.id}}/banner.jpg);">
+          <div class="bg-img__content">
+            <h4 class="title title--sm text--normal">{{grouppage.title}}</h4>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+

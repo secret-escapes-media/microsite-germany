@@ -1,0 +1,86 @@
+---
+layout: default
+id: advent-calendar
+title: Advent Calendar
+nav: true
+nav-order: 3
+
+intro: >
+  <p class="text--xl">Open a door every day. Enter the competition prompt inside each door</p>
+  <p class="text--xl">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+days:
+  - id: day
+    title: Day 1
+  - id: day
+    title: Day 2
+  - id: day
+    title: Day 3
+  - id: day
+    title: Day 4
+  - id: day
+    title: Day 5
+  - id: day
+    title: Day 6
+  - id: day
+    title: Day 7
+  - id: day
+    title: Day 8
+  - id: day
+    title: Day 9
+  - id: day
+    title: Day 10
+  - id: day
+    title: Day 11
+  - id: day
+    title: Day 12
+  - id: day
+    title: Day 13
+  - id: day
+    title: Day 14
+  - id: day
+    title: Day 15
+  - id: day
+    title: Day 16
+  - id: day
+    title: Day 17
+  - id: day
+    title: Day 18
+  - id: day
+    title: Day 19
+  - id: day
+    title: Day 20
+  - id: day
+    title: Day 21
+  - id: day
+    title: Day 22
+  - id: day
+    title: Day 23
+  - id: day
+    title: Day 24
+  - id: day
+    title: Day 25
+
+---
+
+
+<div class="container container--xxl vpad--xxl text--center">
+  {{page.intro}}
+</div>
+
+
+<div class="bg--grey-lightest vpad--xxl">
+  <div class="container">
+    <div class="row">
+      {% for day in page.days %}
+        <div class="col col--3">
+          <a href="javascript:void(0);" data-modal-item="advent-day" class="js-open-modal">
+            <div class="boxpad--xl bg--grey-darkest text--white">{{day.title}}</div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
