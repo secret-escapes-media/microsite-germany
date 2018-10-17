@@ -1,14 +1,130 @@
 // general styles for the project that wouldn't be a reuseable component
 
+
+
 .page-bg {
   position: fixed;
+  overflow: hidden;
   z-index: -1;
   top: 0; left: 0;
   right: 0; bottom: 0;
+  @include background-attributes;
+  &__overlay {
+    position: absolute;
+    top:0;bottom:0;left:0;right:0;
+    z-index: 0;
+    background-color: $grey-darkest;
+    opacity: 0;
+  }
 }
+
+
+
+.border {
+  &--inset {
+    position: relative;
+    border: 1px solid rgba($white,1);
+    &:after {
+      content: "";
+      position: absolute;
+      border: 5px solid rgba($white,0.3);
+      top: 0; left: 0; bottom: 0; right: 0;
+    }
+  }
+  &--double {
+    position: relative;
+    border: 1px solid rgba($white,1);
+    &:after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba($white,0.5);
+      top: 2px; left: 2px; bottom: 2px; right: 2px;
+    }
+  }
+  &--triple {
+    position: relative;
+    border: 1px solid rgba($white,1);
+    &:after, &:before {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba($white,0.5);
+      pointer-events: none;
+    }
+    &:after { top: -4px; left: 2px; bottom: -4px; right: 2px; }
+    &:before { top: 2px; left: -4px; bottom: 2px; right: -4px; }
+  }
+}
+
+
 
 .overview {
   &__banner {
-    padding: $s10 0;
+    padding: $s14 0;
+    & .banner-title { text-shadow: 3px 6px 30px rgba($grey-darkest,0.5); }
+  }
+
+  &__intro {
+    position: relative;
+    z-index: 1;
+    background-color: $white;
+    box-shadow: 0 5px $s6 0 rgba($grey-darkest,0.5);
+  }
+
+  &__tile {
+    @include transition;
+    @include background-attributes;
+    position: relative;
+    height: 500px; width: 100%;
+    box-shadow: 0 5px $s6 0 rgba($grey-darkest,0.5);
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+}
+
+
+
+
+.page-intro {
+  position: relative;
+  z-index: 1;
+  margin-top: -$s6;
+  padding: $s8 $s2;
+  background-color: $white;
+  box-shadow: 0 5px $s6 0 rgba($grey-darkest,0.1);
+}
+
+
+
+.advent__banner {
+  padding: $s14 0;
+}
+
+.advent {
+
+  &__calendar {
+    max-width: $xxxl;
+    margin: auto;
+  }
+
+  &-day {
+    @include transition;
+    text-align: center;
+    color: $grey-darker;
+    background-color: $white;
+    height: 240px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    transform: scale(1);
+    &:hover { transform: scale(1.03); }
+
+    &__num {
+      margin-top: -10%;
+      font-family: $font-title-display;
+      font-size: 4rem;
+      &--lg { font-size: 9rem; }
+    }
   }
 }

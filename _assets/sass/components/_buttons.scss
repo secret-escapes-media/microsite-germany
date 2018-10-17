@@ -41,7 +41,7 @@
     }
   }
 
-  &--primary { background-color: $germany;
+  &--primary, &--solid { background-color: $germany;
     &:hover { background-color: darken($germany,10); }
   }
 }

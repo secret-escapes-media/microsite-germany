@@ -101,6 +101,8 @@
   // default gutters
   @include gutter-sizes($s2, $s4, $lg);
   &--gutters {
+    // xs gutters
+    &-xs { @include gutter-sizes($s-2, $s0, $lg); }
     // small gutters
     &-sm { @include gutter-sizes($s0, $s2, $lg); }
     // large gutters
@@ -129,6 +131,7 @@
 
     // equal column sizes for all columns in row
     @mixin column-widths() {
+      &2  { flex: 0 0 16.6667%; max-width: 16.6667%; }
       &3  { flex: 0 0 25%; max-width: 25%; }
       &4  { flex: 0 0 33.33%; max-width: 33.33%; }
       &5  { flex: 0 0 40%; max-width: 40%; }

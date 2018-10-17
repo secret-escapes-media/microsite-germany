@@ -11,6 +11,7 @@
   &--italic       { font-style: italic; }
   &--light        { font-weight: 300; }
   &--normal       { font-weight: 400; }
+  &--medium       { font-weight: 500; }
   &--bold         { font-weight: 600; }
   &--bolder       { font-weight: 700; }
   &--wide-kern    { letter-spacing: .15em; }
@@ -29,5 +30,11 @@
     &--bp-left   { text-align: left; }
     &--bp-right  { text-align: right; }
     &--bp-center { text-align: center; }
+  }
+
+
+  &--quote {
+    font-style: italic;
+    text-shadow: 0 0 30px $grey-darkest;
   }
 }

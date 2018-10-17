@@ -6,57 +6,72 @@ nav-order: 1
 title: Overview
 
 banner:
-  title-sup: Winter in
-  title: Germany
+  title: Spellbinding winters<br /> in Germany
 
 intro: >
-  <p class="text--xl">Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
+  <p class="text--lg">Discover a winter wonderland in Germany. From fairytale castles to unmissable pistes, a winter in this beguiling land promises unforgettable adventures. Picturesque medieval villages and bustling modern cities are waiting to be explored, filling your itinerary with inspired winter moments. Choose your winter in Germany here. </p>
 
 ---
 
 
 
 <div class="container">
+
+  <!-- INTRO -->
+  <div class="overview__intro border--triple">
+    <div class="container container--no-padding">
+      <div class="row row--valign-center row--no-gutters">
+
+        <div class="col col--5">
+          <div class="boxpad--xl">
+            {{page.intro}}
+          </div>
+        </div>
+
+        <div class="col col--7">
+          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);">
+            <a href="#" class="bg-img__link"></a>
+            <div class="bg-img__content">
+              <div class="bg-img__play">
+                <img src="{{site.img}}/icons/play.svg" alt="Play" width="100%">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="space--lg"></div>
+
+
+
   <div class="row">
 
     <!-- Advent calendar -->
-    <div class="col col--6">
-      <div class="bg-img bg-img--1-1">
+    <div class="col col--8">
+      <div class="overview__tile border--inset" style="background-image: url({{site.img}}/content/{{page.id}}/advent-calendar.jpg);">
         <a href="{{site.baseurl}}/advent-calendar/" class="bg-img__link"></a>
         <div class="bg-img__content">
-          <h4 class="title title--xs text--normal text--upper">Advent calendar</h4>
+          <div class="boxpad--lg">
+            <h4 class="title title--xxs text--medium text--upper text--wide-kern">Advent Calendar</h4>
+            <span class="title title--xl title--display text--bold text--italic">What awaits behind today's door?</span>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Offers -->
-    <div class="col col--6">
-      <div class="bg-img bg-img--1-1">
-        <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal bg-img__link"></a>
-        <div class="bg-img__content">
-          <h4 class="title title--xs text--normal text--upper">Watch video</h4>
-        </div>
-      </div>
-    </div>
 
-  </div>
+    {% assign sp_christmas = site.html_pages | where: "id", "christmas" %}
+    {% for subpage in sp_christmas %}
+      {% include page/overview-tile.html %}
+    {% endfor %}
 
-  <div class="space--lg"></div>
-
-  <div class="row">
-
-    {% assign articlepages = site.html_pages | where: "layout", "content-page" %}
-    {% for article in articlepages %}
-    <!-- Topic -->
-    <div class="col col--3">
-      <div class="bg-img bg-img--3-4">
-        <a href="{{site.baseurl}}{{article.url}}" class="bg-img__link"></a>
-        <div class="bg-img__content">
-          <h4 class="title title--xs text--normal text--upper">{{article.title}}</h4>
-        </div>
-      </div>
-    </div>
+    {% assign subpages = site.html_pages | where: "layout", "content-page" | sort: "group-order" %}
+    {% for subpage in subpages %}
+      {% unless subpage.id == "christmas" %}
+        {% include page/overview-tile.html %}
+      {% endunless %}
     {% endfor %}
 
   </div>
@@ -64,9 +79,4 @@ intro: >
   <div class="space--xxxl"></div>
 
 </div>
-
-
-
-{% include page/promo-competition.html %}
-
 

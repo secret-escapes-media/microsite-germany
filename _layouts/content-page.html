@@ -3,38 +3,89 @@ layout: default
 ---
 
 
-<div class="container container--xxl vpad--xxl text--center">
-  {{page.intro}}
-</div>
 
+<div class="bg--grey-lightest">
 
-<div class="vpad--xxxl bg--grey-lightest">
-  {% for section in page.sections %}
   <div class="container">
-    <div class="wp" id="{{section.id}}"></div>
-
-    <div class="width width--xl">
-      <h2 class="title title--xl text--normal">{{section.title}}</h2>
-      <p class="text--xl">{{section.content}}</p>
+    <div class="page-intro container text--center">
+      <div class="container container--xxl">
+        {{page.intro}}
+      </div>
     </div>
+  </div>
 
-    <!-- Highlights -->
-    <div class="space--xl">
+
+
+  <!-- Topics -->
+  {% if page.topics %}
+  <div class="vpad--xl">
+    <div class="container">
+      {% for topic in page.topics %}
+      <div class="wp" id="{{section.id}}"></div>
+
+      <div class="bob {% cycle '', 'bob--swap' %}">
+        <div class="bob__img">
+          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/{{topic.id}}.jpg);"></div>
+        </div>
+        <div class="bob__text">
+          <h2 class="title title--sm text--medium">{{topic.title}}</h2>
+          {{topic.content}}
+        </div>
+      </div>
+      <div class="space--xl"></div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div><!-- end .bg-grey-lightest -->
+
+  {% if page.sections %}
+  <!-- Content sections -->
+  <div class="bg--white vpad--xxl">
+  {% endif %}
+
+{% endif %}
+
+
+
+
+{% if page.sections %}
+  <div class="container">
+
+    {% for section in page.sections %}
+      <div class="wp" id="{{section.id}}"></div>
+
+      {% if section.title or section.content %}
+      <div class="container container--xl text--center">
+        <h2 class="title title--xl title--display">{{section.title}}</h2>
+        <hr class="hr--center">
+        <p class="text--lg">{{section.content}}</p>
+      </div>
+      <div class="space--xl"></div>
+      {% endif %}
+
+      <!-- Highlights -->
       <div class="row">
         {% for highlight in section.highlights %}
           <div class="col col--4">
-            <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/{{highlight.id}}.jpg);"></div>
+            <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);"></div>
             <div class="space--sm">
-              <h4 class="title title--xxs text--normal">{{highlight.title}}</h4>
+              <h4 class="title title--xxs text--medium">{{highlight.title}}</h4>
               <p>{{highlight.content}}</p>
             </div>
           </div>
         {% endfor %}
       </div>
-    </div>
+
+      <div class="space--xxl"></div>
+    {% endfor %}
+
   </div>
-  {% endfor %}
+
 </div>
+{% endif %}
+
 
 
 {% include page/promo-competition.html %}
+

@@ -1,86 +1,117 @@
 ---
-layout: default
+layout: advent
 id: advent-calendar
 title: Advent Calendar
 nav: true
 nav-order: 3
 
-intro: >
-  <p class="text--xl">Open a door every day. Enter the competition prompt inside each door</p>
-  <p class="text--xl">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+banner:
+  content: >
+    <h1 class="banner-title">Advent Calendar</h1>
+    <div class="space--lg"></div>
+    <div class="container container--xl">
+      <p class="text--xxl text--medium">Everyday we’ll reveal a new, unmissable experience that a winter in Germany can offer. Come back each day to discover an inspiring idea for your winter holidays.</p>
+    </div>
 
 days:
-  - id: day
-    title: Day 1
-  - id: day
-    title: Day 2
-  - id: day
-    title: Day 3
-  - id: day
-    title: Day 4
-  - id: day
-    title: Day 5
-  - id: day
-    title: Day 6
-  - id: day
-    title: Day 7
-  - id: day
-    title: Day 8
-  - id: day
-    title: Day 9
-  - id: day
-    title: Day 10
-  - id: day
-    title: Day 11
-  - id: day
-    title: Day 12
-  - id: day
-    title: Day 13
-  - id: day
-    title: Day 14
-  - id: day
-    title: Day 15
-  - id: day
-    title: Day 16
-  - id: day
-    title: Day 17
-  - id: day
-    title: Day 18
-  - id: day
-    title: Day 19
-  - id: day
-    title: Day 20
-  - id: day
-    title: Day 21
-  - id: day
-    title: Day 22
-  - id: day
-    title: Day 23
-  - id: day
-    title: Day 24
-  - id: day
-    title: Day 25
+  - id: day-1
+    num: 1
+
+  - id: day-2
+    num: 2
+
+  - id: day-3
+    num: 3
+
+  - id: day-4
+    num: 4
+
+  - id: day-5
+    num: 5
+
+  - id: day-6
+    num: 6
+
+  - id: day-7
+    num: 7
+
+  - id: day-8
+    num: 8
+
+  - id: day-9
+    num: 9
+
+  - id: day-10
+    num: 10
+
+  - id: day-11
+    num: 11
+
+  - id: day-12
+    num: 12
+
+  - id: day-13
+    num: 13
+
+  - id: day-14
+    num: 14
+
+  - id: day-15
+    num: 15
+
+  - id: day-16
+    num: 16
+
+  - id: day-17
+    num: 17
+
+  - id: day-18
+    num: 18
+
+  - id: day-19
+    num: 19
+
+  - id: day-20
+    num: 20
+
+  - id: day-21
+    num: 21
+
+  - id: day-22
+    num: 22
+
+  - id: day-23
+    num: 23
+
+  - id: day-24
+    num: 24
+
+  - id: day-25
+    num: 25
+
 
 ---
 
 
-<div class="container container--xxl vpad--xxl text--center">
-  {{page.intro}}
-</div>
 
+<div class="container container--100">
+  <div class="advent__calendar row row--gutters-xs">
+    {% for day in page.days %}
+      {% assign third = forloop.index | modulo: 3 %}
 
-<div class="bg--grey-lightest vpad--xxl">
-  <div class="container">
-    <div class="row">
-      {% for day in page.days %}
-        <div class="col col--3">
-          <a href="javascript:void(0);" data-modal-item="advent-day" class="js-open-modal">
-            <div class="boxpad--xl bg--grey-darkest text--white">{{day.title}}</div>
-          </a>
+      {% if third == 1 %}
+        <div class="col col--3 col--lg-4 col--xxxl-4">
+          {% include page/advent-day-large.html %}
         </div>
-      {% endfor %}
-    </div>
+      {% else %}
+        <div class="col col--3 col--lg-4 col--xxxl-2">
+          {% include page/advent-day.html %}
+        </div>
+      {% endif %}
+
+    {% endfor %}
   </div>
 </div>
+<div class="space--xxxl"></div>
 
 
