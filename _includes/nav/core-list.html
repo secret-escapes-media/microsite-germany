@@ -1,6 +1,24 @@
+
 <div class="{{include.block}}">
-  <a class="{{include.block}}-link" href="https://www.secretescapes.com/current-sales">Current Sales</a>
-  <a class="{{include.block}}-link" href="https://www.secretescapes.com/spa">Spa</a>
-  <a class="{{include.block}}-link" href="https://www.secretescapes.com/smartstays/filter">Smart Stays</a>
-  <a class="{{include.block}}-link is-current" href="{{ site.baseurl }}">{{ site.title }}</a>
+
+  {% if page.region == 'uk' %}
+    {% for item in site.uk.core-nav %}
+      <a class="{{include.block}}-link" href="{{item.link}}">{{item.title}}</a>
+    {% endfor %}
+    <a class="{{include.block}}-link is-current" href="{{ site.baseurl }}">{{ site.uk.site-title }}</a>
+
+  {% elsif page.region == 'nl' %}
+    {% for item in site.nl.core-nav %}
+      <a class="{{include.block}}-link" href="{{item.link}}">{{item.title}}</a>
+    {% endfor %}
+    <a class="{{include.block}}-link is-current" href="{{ site.baseurl }}">{{ site.nl.site-title }}</a>
+
+  {% elsif page.region == 'be' %}
+    {% for item in site.be.core-nav %}
+      <a class="{{include.block}}-link" href="{{item.link}}">{{item.title}}</a>
+    {% endfor %}
+    <a class="{{include.block}}-link is-current" href="{{ site.baseurl }}">{{ site.be.site-title }}</a>
+
+  {% endif %}
+
 </div>

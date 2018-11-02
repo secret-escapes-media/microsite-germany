@@ -8,7 +8,13 @@
   {% endif %}
 
   <!-- page meta title -->
-  {% assign meta-title = page.title | append: ' | ' | append: site.title | remove: '&shy;' | replace: '&nbsp;', ' ' %}
+  {% if page.region == 'uk' %}
+    {% assign site-title = site.uk.site-title %}
+  {% elsif page.region == 'nl' %}
+    {% assign site-title = site.nl.site-title %}
+  {% elsif page.region == 'be' %}
+    {% assign site-title = site.be.site-title %}
+  {% endif %}
 
   <!-- social image -->
   {% assign social-image-url = site.url | append: site.img | append: '/thumbnail/social.jpg' %}
@@ -19,7 +25,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{meta-title}}</title>
+  <title>{{page.title}} | {{site-title}}</title>
   <meta name="description" content="{{meta-description}}">
   <!-- START Social Data -->
     <!-- Google / Search Engine Tags -->

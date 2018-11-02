@@ -25,7 +25,11 @@ layout: default
 
       <div class="bob {% cycle '', 'bob--swap' %}">
         <div class="bob__img">
-          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/{{topic.id}}.jpg);"></div>
+          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/{{topic.id}}.jpg);">
+            {% if topic.image-credit %}
+              <div class="bg-img__credit">{{topic.image-credit}}</div>
+            {% endif %}
+          </div>
         </div>
         <div class="bob__text">
           <h2 class="title title--sm text--medium">{{topic.title}}</h2>
@@ -68,7 +72,11 @@ layout: default
       <div class="row">
         {% for highlight in section.highlights %}
           <div class="col col--4">
-            <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);"></div>
+            <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);">
+              {% if highlight.image-credit %}
+                <div class="bg-img__credit">{{highlight.image-credit}}</div>
+              {% endif %}
+            </div>
             <div class="space--sm">
               <h4 class="title title--xxs text--medium">{{highlight.title}}</h4>
               <p>{{highlight.content}}</p>
@@ -79,6 +87,12 @@ layout: default
 
       <div class="space--xxl"></div>
     {% endfor %}
+
+    {% if page.external-link %}
+    <div class="container text--center">
+      <a href="{{page.external-link}}" id="tracking-external-link-{{page.id}}" target="_blank" class="btn btn--primary">Read more about {{page.title}}</a>
+    </div>
+    {% endif %}
 
   </div>
 

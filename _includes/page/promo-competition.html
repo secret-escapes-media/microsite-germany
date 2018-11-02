@@ -1,17 +1,22 @@
 
+{% if page.region == 'uk' %}
+  {% assign title = "Win a winter escape to Berlin for you and three friends!" %}
+  {% assign paragraph = "Stay at the five-star design hotel Mandala and discover Europe’s most exciting city..." %}
+  {% assign cta = "Enter now" %}
+{% else %}
+  {% assign title = "Win een winterse break naar Berlijn voor jou en drie vrienden!" %}
+  {% assign paragraph = "Verblijf in het 5*-designhotel Mandala en ontdek de meest levendige stad van Europa..." %}
+  {% assign cta = "Doe nu mee" %}
+{% endif %}
+
 <div class="vpad--xxxl bg--img" style="background-image: url({{site.img}}/content/promo-competition.jpg);">
-  <div class="container text--white text--center">
+  <div class="container container--xxl text--white text--center">
 
-    <h2 class="title title--xl title--display text--bold">Win a New Year’s escape to Berlin!</h2>
-    <div class="space--xs"></div>
+    <h2 class="title title--lg title--display text--bold">{{title}}</h2>
+    <p class="text--xxl text--bold">{{paragraph}}</p>
+    <div class="space--sm"></div>
+    <a href="{{site.baseurl}}/{{page.region}}/competition/" class="btn btn--primary">{{cta}}</a>
 
-    <hr class="hr--center">
-
-    <div class="container container--xl">
-      <p class="text--lg text--bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <div class="space--sm"></div>
-      <a href="{{site.baseurl}}/competition/" class="btn btn--primary">Enter now</a>
-    </div>
   </div>
 </div>
 

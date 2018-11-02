@@ -1,24 +1,41 @@
-<!-- Text only modal - e.g. terms and conditions -->
-<div class="container container--xl container--no-padding modal__content modal-text bg--white">
+<!-- Advent day -->
+
+{% if page.region == 'uk' %}
+  {% assign day = "Day" %}
+  {% assign competition-title = "Inspired? Enter now for the ultimate German winter getaway!" %}
+  {% assign competition-button = "Enter now" %}
+{% else %}
+  {% assign day = "Dagen" %}
+  {% assign competition-title = "Geïnspireerd? Doe nu mee en win je winterse ontsnapping in Duitsland!" %}
+  {% assign competition-button = "Doe nu mee" %}
+{% endif %}
+<div class="container container--xl container--no-padding modal-text bg--grey-darkest text--white border--double">
 
   <div class="boxpad--md text--center">
-    <span class="title title--xxs text--upper text--bold text--wide-kern">Day {{item.day}}</span>
+    <span class="title title--xxs text--upper text--bold text--wide-kern">{{day}} {{item.day}}</span>
   </div>
 
-  <div class="bg-img bg-img--21-9" style="background-image: url({{site.img}}/img.jpg);"></div>
+  <div class="bg-img bg-img--21-9" style="background-image: url({{site.img}}/content/advent-calendar/days/{{item.id}}.jpg);">
+    {% if item.image-credit %}
+      <div class="bg-img__credit">{{item.image-credit}}</div>
+    {% endif %}
+  </div>
 
   <div class="boxpad--xl text--center">
-    <h2 class="title title--display title--md">{{item.title}}</h2>
-    <hr class="hr--center">
-    <p class="text--xl text--medium">{{item.content}}</p>
+    {% if item.content %}
+      <h2 class="title title--display title--lg text--bold text--italic">{{item.title}}</h2>
+      <hr class="hr--center">
+      <p class="text--xl text--medium">{{item.content}}</p>
+    {% else %}
+      <h2 class="title title--display title--xl text--bold text--italic">{{item.title}}</h2>
+      <div class="space--xs"></div>
+    {% endif %}
   </div>
 
-  <!-- <div class="boxpad--xl text--center bg--grey-lightest">
-    <h3 class="title title--xxs title--display text--bold text--upper">Win the ultimate German winter getaway!</h3>
-    <div class="space--xxs"></div>
-    <p>Click below for your daily entry into our competition</p>
-    <div class="space--sm"></div>
-    <a href="{{site.baseurl}}/competition" class="btn btn--solid">Enter now</a>
-  </div> -->
+  <div class="boxpad--xl text--center bg--grey-darker text--white">
+    <h3 class="title title--xs title--display text--medium">{{competition-title}}</h3>
+    <div class="space--md"></div>
+    <a href="{{site.baseurl}}/competition" class="btn btn--solid">{{competition-button}}</a>
+  </div>
 
 </div>

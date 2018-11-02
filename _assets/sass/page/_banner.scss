@@ -58,4 +58,21 @@
       bottom: auto;
     }
   }
+
+  &__image-credit {
+    @include transition;
+    position: absolute;
+    z-index: 10;
+    bottom: 0; right: 0;
+    margin-right: 0;
+    @include bp($xl){
+      bottom: 3rem; right: 50%;
+      margin-right: -570px;
+      padding: 4px 0 4px 10px;
+      color: $white;
+      text-shadow: 0 0 6px rgba($black,0.7);
+      font-size: 0.7em;
+      line-height: 1.4;
+    }
+  }
 }

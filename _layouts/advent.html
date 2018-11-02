@@ -10,11 +10,17 @@
     {% include page/header.html %}
 
 
-
+    <!--===================
+      BACKGROUND IMAGE
+      -------------------->
     <div class="page-bg" style="background-image: url('{{site.img}}/content/{{page.id}}/banner.jpg')">
-      <div class="page-bg__overlay js-overlay-fade"></div>
+      <div class="page-bg__overlay js-overlay-fade" style="opacity: 0.9;"></div>
     </div>
 
+
+    <!--===================
+      BANNER
+      -------------------->
     <div class="advent__banner">
       <div class="site-header__offset"></div>
       <div class="site-nav__offset"></div>
@@ -33,10 +39,40 @@
     </div>
 
 
-
+    <!--===================
+      CONTENT
+      -------------------->
     <div class="content-spacing section-spacing">
-      {{ content }}
+      <div class="container container--100">
+        <div class="advent__calendar row row--gutters-xs">
+
+          {% if page.region == 'uk' %}
+            {% assign days = site.data.modal.advent-uk | shuffle %}
+          {% elsif page.region == 'nl' %}
+            {% assign days = site.data.modal.advent-nl | shuffle %}
+          {% elsif page.region == 'be' %}
+            {% assign days = site.data.modal.advent-be | shuffle %}
+          {% endif %}
+
+          {% for day in days %}
+            {% assign third = forloop.index | modulo: 3 %}
+            {% if third == 1 %}
+              <div class="col col--3 col--lg-4 col--xxxl-4">
+                {% include page/advent-day-large.html %}
+              </div>
+            {% else %}
+              <div class="col col--3 col--lg-4 col--xxxl-2">
+                {% include page/advent-day.html %}
+              </div>
+            {% endif %}
+          {% endfor %}
+
+        </div>
+      </div>
+      <div class="space--xxxl"></div>
     </div>
+
+
 
     {% include page/footer.html %}
 

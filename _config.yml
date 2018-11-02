@@ -1,11 +1,49 @@
 # Site settings
-title: Winter in Germany
+
 client:
-  name: Germany
-  link: "#client-name"
-core-se-link: https://www.secretescapes.com/current-sales
+  name: Germany National Tourist Board
+  link: "http://www.germany.travel/en/"
+
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Discover a winter wonderland in Germany. From fairytale castles to unmissable pistes, a winter in this beguiling land promises unforgettable adventures. Picturesque medieval villages and bustling modern cities are waiting to be explored, filling your itinerary with inspired winter moments. Choose your winter in Germany here.
+
+
+
+uk:
+  site-title: Winter in Germany
+  client-link: http://www.germany.travel/en/
+  core-se-link: https://www.secretescapes.com/current-sales
+  core-nav:
+    - title: Current Sales
+      link: https://www.secretescapes.com/current-sales
+    - title: Spa
+      link: https://www.secretescapes.com/spa
+    - title: Smart Stays
+      link: https://www.secretescapes.com/smartstays/filter
+nl:
+  site-title: Winter in Duitsland
+  client-link: http://www.germany.travel/en/
+  core-se-link: https://www.secretescapes.com/current-sales
+  core-nav:
+    - title: Huidige sales
+      link: link
+    - title: Wellness
+      link: link
+    - title: Smart Stays
+      link: link
+be:
+  site-title: Winter in Duitsland
+  client-link: http://www.germany.travel/en/
+  core-se-link: https://www.secretescapes.com/current-sales
+  core-nav:
+    - title: Huidige sales
+      link: link
+    - title: Wellness
+      link: link
+    - title: Smart Stays
+      link: link
+
+
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site

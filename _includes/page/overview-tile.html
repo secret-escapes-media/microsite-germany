@@ -4,5 +4,8 @@
     <div class="bg-img__content">
       <h4 class="title title--sm title--display text--upper text--bold">{{subpage.title}}</h4>
     </div>
+    {% if subpage.banner.image-credit %}
+    <div class="bg-img__credit">{{subpage.banner.image-credit}}</div>
+    {% endif %}
   </div>
 </div>

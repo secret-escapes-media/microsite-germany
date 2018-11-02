@@ -1,0 +1,116 @@
+---
+region: uk
+layout: overview
+id: overview
+nav: true
+nav-order: 1
+title: Overview
+
+banner:
+  title: Spellbinding winters<br /> in Germany
+
+intro: >
+  <p class="text--lg">Our editor set out to discover the perfect winter in Germany. Join us as we discover a winter wonderland.</p>
+  <p class="text--lg">From fairytale castles to unmissable pistes, a winter in this beguiling land promises unforgettable adventures. Picturesque medieval villages and bustling modern cities are waiting to be explored, filling your itinerary with inspired winter moments. Choose your winter in Germany here. </p>
+
+advent:
+  start-date: 2018-12-01
+  end-date: 2018-12-26
+  live:
+    subtitle: Advent Calendar
+    title: What awaits behind today's door?
+  countdown:
+    title: Our advent calendar starts in
+    days: Days
+
+---
+
+
+
+<div class="container">
+
+
+
+  <!-- INTRO -->
+  <div class="overview__intro border--triple">
+    <div class="container container--no-padding">
+      <div class="row row--valign-center row--no-gutters">
+
+        <div class="col col--5">
+          <div class="boxpad--xl">
+            {{page.intro}}
+          </div>
+        </div>
+
+        <div class="col col--7">
+          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/overview/video.jpg);">
+            <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal bg-img__link"></a>
+            <div class="bg-img__content">
+              <div class="bg-img__play">
+                <img src="{{site.img}}/icons/play.svg" alt="Play" width="100%">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="space--lg"></div>
+
+
+
+  <div class="row">
+
+    <!-- Advent calendar -->
+    {% assign adventpage = site.html_pages | where: "id", "advent-calendar" | where: 'region', page.region %}
+    {% for adventpage in adventpage %}
+    <div class="col col--8">
+      <div class="advent overview__tile border--inset" data-start="{{page.advent.start-date}}" data-end="{{page.advent.end-date}}" style="background-image: url({{site.img}}/content/overview/advent-calendar.jpg);">
+
+        <a href="{{site.baseurl}}{{adventpage.url}}" class="advent-link bg-img__link"></a>
+
+        <div class="bg-img__content">
+          <div class="boxpad--lg">
+
+            <div class="advent-message is-inactive">
+              <h4 class="title title--xxs text--medium text--upper text--wide-kern">{{page.advent.live.subtitle}}</h4>
+              <span class="title title--xl title--display text--bold text--italic">{{page.advent.live.title}}</span>
+            </div>
+
+            <div class="advent-countdown">
+              <h4 class="title title--md title--display text--medium text--bold text--italic">{{page.advent.countdown.title}}</h4>
+              <div class="advent-countdown__box">
+                <div class="title title--lg text--medium text--upper text--wide-kern">
+                  <span class="advent-countdown__days"></span> {{page.advent.countdown.days}}
+                </div>
+                <div class="advent-countdown__countdown title title--sm text--medium text--upper text--wide-kern"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+
+
+    {% assign sp_christmas = site.html_pages | where: "id", "christmas" | where: 'region', page.region %}
+    {% for subpage in sp_christmas %}
+      {% include page/overview-tile.html %}
+    {% endfor %}
+
+    {% assign subpages = site.html_pages | where: "layout", "content-page" | where: 'region', page.region | sort: "group-order" %}
+    {% for subpage in subpages %}
+      {% unless subpage.id == "christmas" %}
+        {% include page/overview-tile.html %}
+      {% endunless %}
+    {% endfor %}
+
+
+
+  </div>
+  <div class="space--xxxl"></div>
+</div>
+
