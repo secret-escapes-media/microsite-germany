@@ -1,19 +1,15 @@
 <!-- #####################################################  jekyll variables -->
 
-  <!-- page meta data -->
-  {% if page.intro %}
-    {% assign meta-description = page.intro | strip_html | strip_newlines | truncate: 155 %}
-  {% else %}
-    {% assign meta-description = site.description | truncate: 155 %}
-  {% endif %}
-
   <!-- page meta title -->
   {% if page.region == 'uk' %}
     {% assign site-title = site.uk.site-title %}
+    {% assign meta-description = site.uk.description | truncate: 155 %}
   {% elsif page.region == 'nl' %}
     {% assign site-title = site.nl.site-title %}
+    {% assign meta-description = site.nl.description | truncate: 155 %}
   {% elsif page.region == 'be' %}
     {% assign site-title = site.be.site-title %}
+    {% assign meta-description = site.be.description | truncate: 155 %}
   {% endif %}
 
   <!-- social image -->

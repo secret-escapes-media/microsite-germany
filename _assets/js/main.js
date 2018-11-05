@@ -17,6 +17,7 @@ bgFade();
 $(document).scroll(function(){ bgFade(); });
 
 
+
 /* ===================================================
     ADVENT CALENDAR
 ----------------------------------------------------*/
@@ -43,10 +44,11 @@ if( today.getMonth() == '8'){
 }
 
 
-// Countdown for advent calendar
+// Countdown for advent calendar on overview page
 var adventTile = '.advent';
 var startDate = $(adventTile).data('start');
 var endDate = $(adventTile).data('end');
+
 $('.advent-countdown').countdown(startDate, function(event) {
   if (event.offset.totalDays !== 0) {
     $('.advent-countdown').removeClass('is-inactive');

@@ -18,7 +18,7 @@ layout: default
 
   <!-- Topics -->
   {% if page.topics %}
-  <div class="vpad--xl">
+  <div class="vpad--xxl">
     <div class="container">
       {% for topic in page.topics %}
       <div class="wp" id="{{section.id}}"></div>
@@ -36,7 +36,7 @@ layout: default
           {{topic.content}}
         </div>
       </div>
-      <div class="space--xl"></div>
+      {% unless forloop.last %} <div class="space--xl"></div> {% endunless %}
       {% endfor %}
     </div>
   </div>
@@ -45,7 +45,7 @@ layout: default
 
   {% if page.sections %}
   <!-- Content sections -->
-  <div class="bg--white vpad--xxl">
+  <div class="bg--white">
   {% endif %}
 
 {% endif %}
@@ -54,7 +54,7 @@ layout: default
 
 
 {% if page.sections %}
-  <div class="container">
+  <div class="container vpad--xxl">
 
     {% for section in page.sections %}
       <div class="wp" id="{{section.id}}"></div>
@@ -84,6 +84,7 @@ layout: default
           </div>
         {% endfor %}
       </div>
+      {% unless forloop.last %} <div class="space--xl"></div> {% endunless %}
 
     {% endfor %}
 
@@ -93,12 +94,20 @@ layout: default
 {% endif %}
 
 {% if page.external-link %}
-<div class="{% if page.sections %}bg--white{% else %}bg--grey-lightest{% endif %}">
-  <div class="container text--center">
-    <a href="{{page.external-link}}" id="tracking-external-link-{{page.id}}" target="_blank" class="btn btn--primary">Read more about {{page.title}}</a>
+
+  {% if page.region == 'uk' %}
+    {% assign label = "Read more about" %}
+  {% elsif page.region == 'nl' %}
+    {% assign label = "Lees meer over" %}
+  {% elsif page.region == 'be' %}
+    {% assign label = "Lees meer over" %}
+  {% endif %}
+  <div class="{% if page.sections and page.topics %}bg--white{% else %}bg--grey-lightest{% endif %}">
+    <div class="container text--center">
+      <a href="{{page.external-link}}" id="tracking-external-link-{{page.id}}" target="_blank" class="btn btn--primary tracking-external-link-{{page.id}}">{{label}} {{page.title}}</a>
+    </div>
+    <div class="space--xxxl"></div>
   </div>
-  <div class="space--xxxl"></div>
-</div>
 {% endif %}
 
 

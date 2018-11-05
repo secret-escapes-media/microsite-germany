@@ -1,7 +1,7 @@
 // general styles for the project that wouldn't be a reuseable component
 
 
-
+// Fixed background image: overview & advent calendar
 .page-bg {
   position: fixed;
   overflow: hidden;
@@ -19,13 +19,14 @@
 }
 
 
-
+// Fancy border styling for boxes
 .border {
   &--inset {
     position: relative;
     border: 1px solid rgba($white,1);
     &:after {
       content: "";
+      pointer-events: none;
       position: absolute;
       border: 5px solid rgba($white,0.3);
       top: 0; left: 0; bottom: 0; right: 0;
@@ -36,6 +37,7 @@
     border: 1px solid rgba($white,1);
     &:after {
       content: "";
+      pointer-events: none;
       position: absolute;
       border: 1px solid rgba($white,0.5);
       top: 2px; left: 2px; bottom: 2px; right: 2px;
@@ -46,10 +48,10 @@
     border: 1px solid rgba($white,1);
     &:after, &:before {
       content: "";
+      pointer-events: none;
       @include transition;
       position: absolute;
       border: 1px solid rgba($white,0.5);
-      pointer-events: none;
     }
     &:after { top: -4px; left: 2px; bottom: -4px; right: 2px; }
     &:before { top: 2px; left: -4px; bottom: 2px; right: -4px; }
@@ -58,28 +60,46 @@
 
 
 
+// Page intro box : top offset to overlap banner
+.page-intro {
+  position: relative;
+  z-index: 1;
+  background-color: $white;
+  padding: $s6 $s2;
+  @include bp($xl){
+    padding: $s8 $s2;
+    margin-top: -$s6;
+    box-shadow: 0 5px $s6 0 rgba($grey-darkest,0.1);
+  }
+}
+
+
+
+/* ====  OVERVIEW PAGE  ====
+----------------------------*/
 .overview {
   &__banner {
     padding: $s14 0;
     & .banner-title { text-shadow: 3px 6px 30px rgba($grey-darkest,0.5); }
   }
 
-  &__intro {
-    position: relative;
-    z-index: 1;
-    background-color: $grey-lightest;
-    box-shadow: 0 5px $s6 0 rgba($grey-darkest,0.5);
-  }
-
   &__tile {
     @include transition;
     @include background-attributes;
-    position: relative;
-    height: 500px; width: 100%;
+    position: relative;width: 100%;
     box-shadow: 0 5px $s6 0 rgba($grey-darkest,0.5);
     transform: scale(1);
-    &:hover {
-      transform: scale(1.02);
+    height: 180px;
+    &:hover { transform: scale(1.02); }
+    &.advent { min-height: 300px; }
+    @include bp($md){ height: 300px; }
+    @include bp($xl){
+      height: 400px;
+      &.advent { min-height: 400px; }
+    }
+    @include bp($xxxl){
+      height: 500px;
+      &.advent { min-height: 500px; }
     }
   }
 }
@@ -100,24 +120,10 @@
 
 
 
+/* ====  ADVENT PAGE  ====
+----------------------------*/
 
-.page-intro {
-  position: relative;
-  z-index: 1;
-  background-color: $white;
-  padding: $s6 $s2;
-  @include bp($xl){
-    padding: $s8 $s2;
-    margin-top: -$s6;
-    box-shadow: 0 5px $s6 0 rgba($grey-darkest,0.1);
-  }
-}
-
-
-
-.advent__banner {
-  padding: $s14 0;
-}
+.advent__banner { padding: $s14 0; }
 
 .advent {
 
@@ -153,7 +159,9 @@
       font-style: italic;
       font-size: 6rem;
       text-shadow: 2px 2px rgba($white,0.1);
-      &--lg { margin-top: -12.5%; font-size: 9rem; }
+      @include bp($xxxl){
+        &--lg { margin-top: -12.5%; font-size: 9rem; }
+      }
     }
 
     &__image {

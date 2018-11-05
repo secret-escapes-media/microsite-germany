@@ -1,16 +1,30 @@
-# Site settings
 
+# File paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/winter-in-germany" # the subpath of your site, e.g. /blog/
+img:     "/winter-in-germany/_assets/img"
+css:     "/winter-in-germany/_assets/css"
+js:      "/winter-in-germany/_assets/js"
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed
+
+
+
+# Site details
 client:
   name: Germany National Tourist Board
   link: "http://www.germany.travel/en/"
 
-description: >
-  Discover a winter wonderland in Germany. From fairytale castles to unmissable pistes, a winter in this beguiling land promises unforgettable adventures. Picturesque medieval villages and bustling modern cities are waiting to be explored, filling your itinerary with inspired winter moments. Choose your winter in Germany here.
-
-
-
 uk:
   site-title: Winter in Germany
+  description: >
+    Discover a winter wonderland in Germany. From fairytale castles to unmissable pistes, a winter in this beguiling land promises unforgettable adventures. Picturesque medieval villages and bustling modern cities are waiting to be explored, filling your itinerary with inspired winter moments. Choose your winter in Germany here.
   client-link: http://www.germany.travel/en/
   core-se-link: https://www.secretescapes.com/current-sales
   core-nav:
@@ -20,9 +34,12 @@ uk:
       link: https://www.secretescapes.com/spa
     - title: Smart Stays
       link: https://www.secretescapes.com/smartstays/filter
+
 nl:
   site-title: Winter in Duitsland
-  client-link: http://www.germany.travel/en/
+  description: >
+    Ontdek het winterse landschap van Duitsland. Met onmisbare pistes en kastelen die zo uit een sprookjesboek lijken te komen, brengt dit betoverende winter wonderland onvergetelijke avonturen. Pittoreske middeleeuwse dorpjes en bruisende moderne steden wachten om door jou ontdekt te worden en verrijken je reis met inspirerende wintermomenten. Vind hier jouw ideale wintervakantie in Duitsland.
+  client-link: http://www.germany.travel/nl
   core-se-link: https://nl.secretescapes.com/aanbiedingen
   core-nav:
     - title: Actuele Aanbiedingen
@@ -31,9 +48,12 @@ nl:
       link: https://nl.secretescapes.com/hoe-werkt-het
     - title: Cadeaubon
       link: https://nl.secretescapes.com/cadeaubon-kopen
+
 be:
   site-title: Winter in Duitsland
-  client-link: http://www.germany.travel/en/
+  description: >
+    Ontdek het winterse landschap van Duitsland. Met onmisbare pistes en kastelen die zo uit een sprookjesboek lijken te komen, brengt dit betoverende winter wonderland onvergetelijke avonturen. Pittoreske middeleeuwse dorpjes en bruisende moderne steden wachten om door jou ontdekt te worden en verrijken je reis met inspirerende wintermomenten. Vind hier jouw ideale wintervakantie in Duitsland.
+  client-link: http://www.germany.travel/nl/
   core-se-link: https://be.secretescapes.com/aanbiedingen
   core-nav:
     - title: Actuele Aanbiedingen
@@ -43,18 +63,3 @@ be:
 
 
 
-# file paths
-url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/winter-in-germany" # the subpath of your site, e.g. /blog/
-img:     "/winter-in-germany/_assets/img"
-css:     "/winter-in-germany/_assets/css"
-js:      "/winter-in-germany/_assets/js"
-
-
-# Build settings
-markdown: kramdown
-exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
-keep_files: [_assets]
-sass:
-    sass_dir: css
-    style: compressed

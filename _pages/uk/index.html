@@ -10,8 +10,7 @@ banner:
   title: Spellbinding winters<br /> in Germany
 
 intro: >
-  <p class="text--lg">Our editor set out to discover the perfect winter in Germany. Join us as we discover a winter wonderland.</p>
-  <p class="text--lg">From fairytale castles to unmissable pistes, a winter in this beguiling land promises unforgettable adventures. Picturesque medieval villages and bustling modern cities are waiting to be explored, filling your itinerary with inspired winter moments. Choose your winter in Germany here. </p>
+  <p class="text--xxl">From fairytale castles to unmissable pistes, a winter in this beguiling land promises unforgettable adventures. Picturesque medieval villages and bustling modern cities are waiting to be explored, filling your itinerary with inspired winter moments. Choose your winter in Germany here. </p>
 
 advent:
   start-date: 2018-12-01
@@ -32,16 +31,16 @@ advent:
 
 
   <!-- INTRO -->
-  <div class="overview__intro border--triple">
+  <div class="border--triple bg--grey-lightest">
     <div class="container container--no-padding">
       <div class="row row--valign-center row--no-gutters">
 
-        <div class="col col--5">
-          <div class="boxpad--xl">
+        <!-- <div class="col col--5"> -->
+          <div class="boxpad--xxl container container--xxl text--center">
             {{page.intro}}
           </div>
-        </div>
-
+        <!-- </div> -->
+        <!--
         <div class="col col--7">
           <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/overview/video.jpg);">
             <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal bg-img__link"></a>
@@ -51,7 +50,7 @@ advent:
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -65,7 +64,7 @@ advent:
     <!-- Advent calendar -->
     {% assign adventpage = site.html_pages | where: "id", "advent-calendar" | where: 'region', page.region %}
     {% for adventpage in adventpage %}
-    <div class="col col--8">
+    <div class="col col--xl-8">
       <div class="advent overview__tile border--inset" data-start="{{page.advent.start-date}}" data-end="{{page.advent.end-date}}" style="background-image: url({{site.img}}/content/overview/advent-calendar.jpg);">
 
         <a href="{{site.baseurl}}{{adventpage.url}}" class="advent-link bg-img__link"></a>

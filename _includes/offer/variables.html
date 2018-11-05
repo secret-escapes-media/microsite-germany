@@ -1,7 +1,13 @@
 <!-- offer variables just to make the loops more readable -->
 
 <!-- all offers -->
-{% assign offers = site.data.offers %}
+{% if page.region == "uk" %}
+  {% assign offers = site.data.offers-uk %}
+{% elsif page.region == "nl" %}
+  {% assign offers = site.data.offers-nl %}
+{% elsif page.region == "be" %}
+  {% assign offers = site.data.offers-be %}
+{% endif %}
 
 <!-- offers by saving -->
 {% assign offers-by-saving = offers | sort: 'saved' | reverse %}
