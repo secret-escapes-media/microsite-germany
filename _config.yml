@@ -23,25 +23,23 @@ uk:
 nl:
   site-title: Winter in Duitsland
   client-link: http://www.germany.travel/en/
-  core-se-link: https://www.secretescapes.com/current-sales
+  core-se-link: https://nl.secretescapes.com/aanbiedingen
   core-nav:
-    - title: Huidige sales
-      link: link
-    - title: Wellness
-      link: link
-    - title: Smart Stays
-      link: link
+    - title: Actuele Aanbiedingen
+      link: https://nl.secretescapes.com/aanbiedingen
+    - title: Hoe Werkt Het?
+      link: https://nl.secretescapes.com/hoe-werkt-het
+    - title: Cadeaubon
+      link: https://nl.secretescapes.com/cadeaubon-kopen
 be:
   site-title: Winter in Duitsland
   client-link: http://www.germany.travel/en/
-  core-se-link: https://www.secretescapes.com/current-sales
+  core-se-link: https://be.secretescapes.com/aanbiedingen
   core-nav:
-    - title: Huidige sales
-      link: link
-    - title: Wellness
-      link: link
-    - title: Smart Stays
-      link: link
+    - title: Actuele Aanbiedingen
+      link: https://be.secretescapes.com/aanbiedingen
+    - title: Cadeaubon
+      link: https://be.secretescapes.com/cadeaubon-kopen
 
 
 

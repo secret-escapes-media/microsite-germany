@@ -85,17 +85,19 @@ layout: default
         {% endfor %}
       </div>
 
-      <div class="space--xxl"></div>
     {% endfor %}
-
-    {% if page.external-link %}
-    <div class="container text--center">
-      <a href="{{page.external-link}}" id="tracking-external-link-{{page.id}}" target="_blank" class="btn btn--primary">Read more about {{page.title}}</a>
-    </div>
-    {% endif %}
 
   </div>
 
+</div>
+{% endif %}
+
+{% if page.external-link %}
+<div class="{% if page.sections %}bg--white{% else %}bg--grey-lightest{% endif %}">
+  <div class="container text--center">
+    <a href="{{page.external-link}}" id="tracking-external-link-{{page.id}}" target="_blank" class="btn btn--primary">Read more about {{page.title}}</a>
+  </div>
+  <div class="space--xxxl"></div>
 </div>
 {% endif %}
 
