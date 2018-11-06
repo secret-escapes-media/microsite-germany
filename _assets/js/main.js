@@ -23,9 +23,9 @@ $(document).scroll(function(){ bgFade(); });
 ----------------------------------------------------*/
 
 var today = new Date();
-var currDay = today.getDate() - 15;
+var currDay = today.getDate();
 
-if( today.getMonth() == '8'){
+if( today.getMonth() == '11'){
   // if October (month -1)
   $('.advent-day').each(function( index, el ){
     var dayNum = $( el ).attr('data-day');
@@ -40,6 +40,10 @@ if( today.getMonth() == '8'){
     if( currDay == dayNum ){
       $( el ).addClass('advent-day--today');
     }
+  });
+}else{
+  $('.advent-day').each(function( index, el ){
+    $( el ).addClass('advent-day--inactive');
   });
 }
 

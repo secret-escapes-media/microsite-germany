@@ -41,9 +41,15 @@
 
   &__play {
     @include transition;
-    width: 160px; height: 160px;
+    width: 70px; height: 70px;
     display: inline-block;
     transform: scale(1);
+    @include bp($lg){
+      width: 120px; height: 120px;
+    }
+    @include bp($xl){
+      width: 160px; height: 160px;
+    }
   }
   &:hover &__play { transform: scale(1.05); }
 

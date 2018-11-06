@@ -104,7 +104,7 @@ layout: default
   {% endif %}
   <div class="{% if page.sections and page.topics %}bg--white{% else %}bg--grey-lightest{% endif %}">
     <div class="container text--center">
-      <a href="{{page.external-link}}" id="tracking-external-link-{{page.id}}" target="_blank" class="btn btn--primary tracking-external-link-{{page.id}}">{{label}} {{page.title}}</a>
+      <a href="{{page.external-link}}" id="tracking-external-link-{{page.id}}" target="_blank" class="btn btn--primary tracking-external-link-{{page.id}}">{{label}} {% if page.external-link-text %}{{page.external-link-text}}{% else %}{{page.title}}{% endif %}</a>
     </div>
     <div class="space--xxxl"></div>
   </div>
