@@ -2,12 +2,12 @@
 
 {% if page.region == 'uk' %}
   {% assign day = "Day" %}
-  {% assign competition-title = "Inspired? Enter now for the ultimate German winter getaway!" %}
-  {% assign competition-button = "Enter now" %}
+  {% assign offers-title = "Inspired? Discover our finest hotels for the ultimate German winter getaway!" %}
+  {% assign offers-button = "View offers" %}
 {% else %}
   {% assign day = "Dag" %}
-  {% assign competition-title = "Geïnspireerd? Doe nu mee en win een weekendbreak in winters Duitsland!" %}
-  {% assign competition-button = "Doe nu mee" %}
+  {% assign offers-title = "Geïnspireerd? Ontdek onze beste hotels voor de ultieme winterse break in Duitsland!" %}
+  {% assign offers-button = "Bekijk deals" %}
 {% endif %}
 <div class="container container--xl container--no-padding modal-text bg--grey-darkest text--white border--double">
 
@@ -33,9 +33,9 @@
   </div>
 
   <div class="boxpad--xl text--center bg--grey-darker text--white">
-    <h3 class="title title--xs title--display text--medium">{{competition-title}}</h3>
+    <h3 class="title title--xs title--display text--medium">{{offers-title}}</h3>
     <div class="space--md"></div>
-    <a href="{{site.baseurl}}/{{page.region}}/competition" class="btn btn--solid tracking-advent-day-{{item.day}}-competition-button" id="tracking-advent-day-{{item.day}}-competition-button">{{competition-button}}</a>
+    <a href="{{site.baseurl}}/{{page.region}}/offers" class="btn btn--solid tracking-advent-day-{{item.day}}-offers-button" id="tracking-advent-day-{{item.day}}-offers-button">{{offers-button}}</a>
   </div>
 
 </div>

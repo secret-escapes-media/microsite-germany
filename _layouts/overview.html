@@ -36,22 +36,22 @@
           <div class="container container--no-padding">
             <div class="row row--valign-center row--no-gutters">
 
-              <!-- <div class="col col--5"> -->
-                <div class="boxpad--xxl container container--xxl text--center">
+              <div class="col col--5">
+                <div class="boxpad--xxl container container--xxl">
                   {{page.intro}}
                 </div>
-              <!-- </div> -->
-              <!--
+              </div>
+
               <div class="col col--7">
                 <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/overview/video.jpg);">
-                  <a href="javascript:void(0);" data-modal-item="video" class="js-open-modal bg-img__link"></a>
+                  <a href="javascript:void(0);" data-modal-item="video-{{page.region}}" class="js-open-modal bg-img__link"></a>
                   <div class="bg-img__content">
                     <div class="bg-img__play">
                       <img src="{{site.img}}/icons/play.svg" alt="Play" width="100%">
                     </div>
                   </div>
                 </div>
-              </div> -->
+              </div>
 
             </div>
           </div>
@@ -73,7 +73,7 @@
 
                   <div class="advent-message is-inactive">
                     <h4 class="title title--xxs text--medium text--upper text--wide-kern">{{page.advent.live.subtitle}}</h4>
-                    <span class="title title--xl title--display text--bold text--italic">{{page.advent.live.title}}</span>
+                    <span class="title title--lg title--display text--bold text--italic">{{page.advent.live.title}}</span>
                   </div>
 
                   <div class="advent-countdown">

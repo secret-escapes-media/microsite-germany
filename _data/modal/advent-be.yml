@@ -19,7 +19,7 @@
 - type: advent
   id: swabian-cuisine
   day: 2
-  title: Swabian cuisine
+  title: Zwabische keuken
   content: >
     Proef de Zwabische keuken in Stuttgart en maak een glühwein-excursie door de wijngaarden in de omgeving.
   pages:
@@ -183,6 +183,7 @@
   id: bad-kreuznach
   day: 18
   title: Bad Kreuznach
+  image-credit: © Gesundheit und Tourismus für Bad Kreuznach GmbH
   content: >
     Bad Kreuznach is een van de mooiste kuuroorden van Duitsland. Bezoek deze schilderachtige vallei voor wellnessbehandelingen waar je weer helemaal van opfrist.
   pages:
