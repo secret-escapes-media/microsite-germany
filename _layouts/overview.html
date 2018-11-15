@@ -32,6 +32,7 @@
       <div class="container">
 
         <!-- INTRO -->
+        {% if page.video %}
         <div class="border--triple bg--grey-lightest">
           <div class="container container--no-padding">
             <div class="row row--valign-center row--no-gutters">
@@ -56,6 +57,16 @@
             </div>
           </div>
         </div>
+        {% else %}
+        <div class="border--triple bg--grey-lightest">
+          <div class="container container--no-padding">
+            <div class="boxpad--xxl container container--xxl text--center">
+              {{page.intro}}
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
         <div class="space--lg"></div>
 
         <div class="row">
