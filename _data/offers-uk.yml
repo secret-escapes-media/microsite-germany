@@ -1,63 +1,13 @@
-
-- title: Lindner Hotel & Residence Main Plaza
-  id: lindner-hotel-and-residence-main-plaza
+- title: Citadines City Centre Frankfurt
+  id: citadines-city-centre-frankfurt
   location: Frankfurt, Germany
-  description: A Frankfurt city escape with chic digs along the river
-  price: 106
-  price-description: per room per night
-  saved: 54
-  expires: 2018/11/12
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/58635/1e04864d_229b_4bea_ab3a_8ef5c2f88201.jpg
-  link: https://www.secretescapes.com/lindner-hotel-and-residence-main-plaza-frankfurt-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: nhow Berlin
-  id: nhow-berlin
-  location: Berlin, Germany
-  description: A design-led Berlin spa stay with musical inspiration
-  price: 83
-  price-description: per room per night
-  saved: 52
-  expires: 2018/11/12
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/32370/8e41b88c_faa7_46d3_96c4_3c5d9179956a.jpg
-  link: https://www.secretescapes.com/nhow-berlin-berlin-germany2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Living Hotel Am Viktualienmarkt
-  id: living-hotel-am-viktualienmarkt
-  location: Munich, Germany
-  description: A design-conscious hotel in the heart of Munich
-  price: 148
-  price-description: per room per night
-  saved: 32
-  expires: 2018/11/12
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/79324/4fa2f1fd_ceeb_4245_874f_9436215605f5.jpg
-  link: https://www.secretescapes.com/living-hotel-am-viktualienmarkt-munich-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Mövenpick Hotel Hamburg
-  id: mövenpick-hotel-hamburg
-  location: Hamburg, Germany
-  description: A 19th-century water tower turned hotel in hip Hamburg
-  price: 87
-  price-description: per room per night
-  saved: 39
-  expires: 2018/11/12
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/6543/bed2264f_5182_4b32_8863_0096d033524e.jpg
-  link: https://www.secretescapes.com/moevenpick-hamburg-hamburg-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Maritim Hotel Köln
-  id: maritim-hotel-köln
-  location: Cologne, Germany
-  description: A modern Cologne stay with Christmas market dates on the banks of the river Rhine
-  price: 95
-  price-description: per room per night
-  saved: 45
-  expires: 2018/11/12
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/38336/41d0a803_c5f2_4a10_a742_f6b224fcdd94.jpg
-  link: https://www.secretescapes.com/maritim-hotel-koeln-cologne-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
+  description: A sleek studio apartment within easy reach of Frankfurt's sights
+  price: 60
+  price-description: per studio per night
+  saved: 35
+  expires: 2018/11/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59136/edd8c583_4f75_41cd_8e08_ae269eea3028.jpg
+  link: https://www.secretescapes.com/citadines-city-centre-frankfurt-frankfurt-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
 
 - title: Steigenberger Hotel am Kanzleramt
   id: steigenberger-hotel-am-kanzleramt
@@ -66,31 +16,50 @@
   price: 113
   price-description: per room per night
   saved: 30
-  expires: 2018/11/12
+  expires: 2018/11/21
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/61413/18847d21_440d_4cc8_aa74_46f49a76086d.jpg
   link: https://www.secretescapes.com/steigenberger-hotel-am-kanzleramt-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
 
-- title: Ku' Damm 101
-  id: ku-damm-101
-  location: Berlin, Germany
-  description: An uber-cool Corbusier-inspired Berlin design hotel
-  price: 63
-  price-description: per room per night
-  saved: 45
-  expires: 2018/11/12
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82025/c0705fe1_c3b5_4f0f_8748_e55fa702452d.jpg
-  link: https://www.secretescapes.com/ku-damm-101-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Hampton by Hilton Frankfurt City Centre East
-  id: hampton-by-hilton-frankfurt-city-centre-east
-  location: Frankfurt, Germany
-  description: Modern city stay in the centre of Frankfurt
-  price: 57
-  price-description: per room per night
+- title: Excelsior Hotel Ernst
+  id: excelsior-hotel-ernst
+  location: Cologne, Germany
+  description: A glamorous five-star stay opposite Cologne Cathedral
+  price: 168
+  price-description: per rooms per night
   saved: 47
-  expires: 2018/11/12
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81948/dda50bfa_e53f_4b2e_b734_1f10fe6910e0.jpg
-  link: https://www.secretescapes.com/hampton-by-hilton-frankfurt-city-centre-east-frankfurt-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
+  expires: 2018/11/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/13826/df84b391_99a3_496f_bde3_2c5507e8cc39.jpg
+  link: https://www.secretescapes.com/excelsior-hotel-ernst-cologne-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+
+- title: Roomers
+  id: roomers
+  location: Frankfurt, Germany
+  description: A chic Frankfurt design hotel oozing dark elegance
+  price: 124
+  price-description: per room per night
+  saved: 49
+  expires: 2018/11/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/65170/45b2f4b3_b759_4a5e_9aa0_f6401d9c4188.jpg
+  link: https://www.secretescapes.com/roomers-frankfurt-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+
+- title: Culture-rich Germany city-hopping break
+  id: culture-rich-germany-city-hopping-break
+  location: Berlin, Dresden & Hamburg, Germany
+  description: City-hop across three of Germany’s most iconic cities
+  price: 399
+  price-description: per person for 6 nights
+  saved: 38
+  expires: 2018/11/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82212/e549d15f_f3c8_4a56_bf17_eede594c2ef8.jpg
+  link: https://www.secretescapes.com/city-hopping-break-between-germany-and-poland-hotel-amano-grand-central-berlin-and-mercure-gdansk-stare-miasto-gdansk1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+
+- title: Mövenpick Hotel Berlin
+  id: movenpick-hotel-berlin
+  location: Berlin, Germany
+  description: An upscale Berlin hotel near Potsdamer Platz
+  price: 79
+  price-description: per room per night
+  saved: 46
+  expires: 2018/11/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/2994/b068c9d8_0400_4025_b600_472da3e534ca.jpg
+  link: https://www.secretescapes.com/movenpick-hotel-berlin-berlin-germany2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
