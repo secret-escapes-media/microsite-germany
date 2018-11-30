@@ -1,3 +1,16 @@
+
+- title: Mövenpick Hotel Berlin
+  id: mövenpick-hotel-berlin
+  location: Berlin, Germany
+  description: An upscale Berlin hotel near Potsdamer Platz
+  price: 79
+  price-description: per room per night
+  saved: 46
+  expires: 2018/12/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/2994/b068c9d8_0400_4025_b600_472da3e534ca.jpg
+  link: https://www.secretescapes.com/movenpick-hotel-berlin-berlin-germany2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
+
 - title: Citadines City Centre Frankfurt
   id: citadines-city-centre-frankfurt
   location: Frankfurt, Germany
@@ -8,17 +21,7 @@
   expires: 2018/11/26
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59136/edd8c583_4f75_41cd_8e08_ae269eea3028.jpg
   link: https://www.secretescapes.com/citadines-city-centre-frankfurt-frankfurt-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-
-- title: Steigenberger Hotel am Kanzleramt
-  id: steigenberger-hotel-am-kanzleramt
-  location: Berlin, Germany
-  description: An eco-friendly urban retreat by shopping haven Kurfürstendamm Avenue
-  price: 113
-  price-description: per room per night
-  saved: 30
-  expires: 2018/11/21
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/61413/18847d21_440d_4cc8_aa74_46f49a76086d.jpg
-  link: https://www.secretescapes.com/steigenberger-hotel-am-kanzleramt-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
 
 - title: Excelsior Hotel Ernst
   id: excelsior-hotel-ernst
@@ -27,9 +30,10 @@
   price: 168
   price-description: per rooms per night
   saved: 47
-  expires: 2018/11/26
+  expires: 2018/12/03
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/13826/df84b391_99a3_496f_bde3_2c5507e8cc39.jpg
   link: https://www.secretescapes.com/excelsior-hotel-ernst-cologne-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
 
 - title: Roomers
   id: roomers
@@ -41,6 +45,19 @@
   expires: 2018/11/26
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/65170/45b2f4b3_b759_4a5e_9aa0_f6401d9c4188.jpg
   link: https://www.secretescapes.com/roomers-frankfurt-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
+
+- title: Super 8 Munich City North
+  id: super-8-munich-city-north
+  location: Munich, Germany
+  description: A contemporary urban bolthole to the north of Munich
+  price: 70
+  price-description: per room per night
+  saved: 23
+  expires: 2018/12/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82915/781e75e4_a29b_4c8d_807a_8c9735343ce4.jpg
+  link: https://www.secretescapes.com/super-8-munich-city-north-munich-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
 
 - title: Culture-rich Germany city-hopping break
   id: culture-rich-germany-city-hopping-break
@@ -52,14 +69,28 @@
   expires: 2018/11/26
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82212/e549d15f_f3c8_4a56_bf17_eede594c2ef8.jpg
   link: https://www.secretescapes.com/city-hopping-break-between-germany-and-poland-hotel-amano-grand-central-berlin-and-mercure-gdansk-stare-miasto-gdansk1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
 
-- title: Mövenpick Hotel Berlin
-  id: movenpick-hotel-berlin
+- title: The Weinmeister Hotel
+  id: the-weinmeister-hotel
   location: Berlin, Germany
-  description: An upscale Berlin hotel near Potsdamer Platz
-  price: 79
+  description: A hip, high-design spa hotel in Berlin's fashionable Mitte district
+  price: 71
   price-description: per room per night
-  saved: 46
-  expires: 2018/11/26
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/2994/b068c9d8_0400_4025_b600_472da3e534ca.jpg
-  link: https://www.secretescapes.com/movenpick-hotel-berlin-berlin-germany2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  saved: 63
+  expires: 2018/12/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/23117/6670c353_beaa_45e3_a506_c25fbcce09de.jpg
+  link: https://www.secretescapes.com/the-weinmeister-hotel-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
+
+- title: Adina Apartment Hotel Frankfurt Westend
+  id: adina-apartment-hotel-frankfurt-westend
+  location: Frankfurt, Germany
+  description: A modern studio stay in Frankfurt with festive dates
+  price: 88
+  price-description: per studio per night
+  saved: 35
+  expires: 2018/12/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/58102/2ac64fb5_bff2_487d_a602_7bbdf6b45a57.jpg
+  link: https://www.secretescapes.com/adina-apartment-hotel-frankfurt-westend-frankfurt-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  

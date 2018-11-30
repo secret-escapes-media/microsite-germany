@@ -54,7 +54,7 @@ var startDate = $(adventTile).data('start');
 var endDate = $(adventTile).data('end');
 
 $('.advent-countdown').countdown(startDate, function(event) {
-  if (event.offset.totalDays !== 0) {
+  if( today.getMonth() != '11'){
     $('.advent-countdown').removeClass('is-inactive');
     $('.advent-message').hide();
     $('.advent-link').hide();
