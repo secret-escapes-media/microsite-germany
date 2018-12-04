@@ -1,4 +1,16 @@
 
+- title: Excelsior Hotel Ernst
+  id: excelsior-hotel-ernst
+  location: Keulen, Duitsland
+  description: Genieten op exclusief niveau in 5*-hotel in hartje Keulen, incl. ontbijt, wellness &amp; meer
+  price: 189
+  price-description: per kamer per night
+  saved: 47
+  expires: 2018/12/03
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/13826/27a48034_8a12_425f_b931_96f56a69b40c.jpg
+  link: https://be.secretescapes.com/excelsior-hotel-ernst-keulen-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  
+
 - title: The Weinmeister Berlin Mitte
   id: the-weinmeister-berlin-mitte
   location: Berlijn, Duitsland
@@ -23,30 +35,6 @@
   link: https://be.secretescapes.com/adina-apartment-hotel-frankfurt-westend-frankfurt-am-main-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
   
 
-- title: Maritim Hotel Köln
-  id: maritim-hotel-köln
-  location: Keulen, Noordrijn-Westfalen, Duitsland
-  description: Ontdek Keulen vanuit een stijlvol hotel met uitzicht op de Dom, incl. ontbijt
-  price: 109
-  price-description: per kamer per night
-  saved: 45
-  expires: 2018/11/26
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/38336/41d0a803_c5f2_4a10_a742_f6b224fcdd94.jpg
-  link: https://be.secretescapes.com/maritim-hotel-koln-keulen-noordrijn-westfalen-duitsland1546/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Excelsior Hotel Ernst
-  id: excelsior-hotel-ernst
-  location: Keulen, Duitsland
-  description: Genieten op exclusief niveau in 5*-hotel in hartje Keulen, incl. ontbijt, wellness &amp; meer
-  price: 189
-  price-description: per kamer per night
-  saved: 47
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/13826/27a48034_8a12_425f_b931_96f56a69b40c.jpg
-  link: https://be.secretescapes.com/excelsior-hotel-ernst-keulen-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
 - title: Mövenpick Hotel Berlin
   id: mövenpick-hotel-berlin
   location: Berlijn, Duitsland
@@ -57,112 +45,4 @@
   expires: 2018/12/03
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/14537/a401dea7_53a2_4f56_87bc_98e3a9fb9fbc.jpg
   link: https://be.secretescapes.com/movenpick-hotel-berlin-berlijn-duitsland325/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Kempinski Berchtesgaden
-  id: kempinski-berchtesgaden
-  location: Berchtesgaden, Beieren, Duitsland
-  description: Wellnesshotel met Michelin-ster bekroond restaurant, incl. ontbijt &amp; extra's
-  price: 218
-  price-description: per kamer per night
-  saved: 50
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/22920/e1d799fb_6be4_4786_b891_b8ab8881b9af.jpg
-  link: https://be.secretescapes.com/kempinski-berchtesgaden-berchtesgaden-beieren-duitsland1456/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Ruby Lotti Hamburg
-  id: ruby-lotti-hamburg
-  location: Hamburg, Duitsland
-  description: Beleef Hamburg vanuit nieuw hotel op toffe locatie, incl. ontbijt&nbsp;
-  price: 89
-  price-description: per kamer per night
-  saved: 43
-  expires: 2018/11/26
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/78434/53256322_bc1a_460f_af2c_c07f37ad2fa3.jpg
-  link: https://be.secretescapes.com/ruby-lotti-hamburg-hamburg-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: ATLANTIC Hotel Universum
-  id: atlantic-hotel-universum
-  location: Bremen, Duitsland
-  description: Modern hotel in Bremen, vlak bij het stadsbos, incl. ontbijt &amp; extra's
-  price: 119
-  price-description: per kamer per night
-  saved: 41
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36830/45f1d91e_613e_406c_810d_a095751b2100.jpg
-  link: https://be.secretescapes.com/atlantic-hotel-universum-bremen-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Citadines City Centre Frankfurt
-  id: citadines-city-centre-frankfurt
-  location: Frankfurt, Hessen, Duitsland
-  description: Hypermodern én historisch Frankfurt binnen handbereik, incl. ontbijt
-  price: 69
-  price-description: per kamer per night
-  saved: 35
-  expires: 2018/11/26
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59136/edd8c583_4f75_41cd_8e08_ae269eea3028.jpg
-  link: https://be.secretescapes.com/citadines-city-centre-frankfurt-frankfurt-hessen-duitsland15/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Das Bader Hotel
-  id: das-bader-hotel
-  location: Parsdorf, Bavaria, Duitsland
-  description: Knus hotel met mondain München om de hoek, incl. ontbijt
-  price: 81
-  price-description: per kamer per night
-  saved: 35
-  expires: 2018/11/26
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/22309/e8a1a934_ee88_42d3_b772_73f8d2682c4e.jpg
-  link: https://be.secretescapes.com/das-bader-hotel-parsdorf-bavaria-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Le Meridien Grand Hotel Nuernberg
-  id: le-meridien-grand-hotel-nuernberg
-  location: Neurenberg, Duitsland
-  description: Vakwerkhuizen en bierkelders in een van de mooiste steden van Duitsland, incl. ontbijt
-  price: 119
-  price-description: per kamer per night
-  saved: 58
-  expires: 2018/11/28
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/45719/0a2f272b_5846_4322_ab91_9a30b8d9d04b.jpg
-  link: https://be.secretescapes.com/le-meridien-grand-hotel-nuernberg-neurenberg-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Gut Klostermuehle
-  id: gut-klostermuehle
-  location: Madlitz-Wilmersdorf, Brandenburg, Duitsland
-  description: Proef de Duitse natuur vanuit een ontspannen toevluchtsoord, o.b.v. halfpension
-  price: 199
-  price-description: per kamer per night
-  saved: 57
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/45612/51ebc45a_125d_410b_b448_240f18addcdf.jpg
-  link: https://be.secretescapes.com/gut-klostermuehle-madlitz-wilmersdorf-brandenburg-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Jakobsberg Hotel & Resort
-  id: jakobsberg-hotel-and-resort
-  location: Boppard, Rheinland-Pfalz, Duitsland
-  description: Wijn, natuur, sport en wellness in dit 4*-resort op een toplocatie, incl. ontbijt &amp; extra's
-  price: 139
-  price-description: per kamer per night
-  saved: 55
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59877/47b052bd_a52f_4489_a7e0_b4d903533a61.jpg
-  link: https://be.secretescapes.com/jakobsberg-hotel-and-resort-boppard-rheinland-pfalz-duitsland22/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Lindner Congress & Motorsport Hotel Nürburgring
-  id: lindner-congress-and-motorsport-hotel-nürburgring
-  location: Nürburg, Duitsland
-  description: Pitstop aan de Nürburgring in een tophotel, incl. ontbijt &amp; optioneel diner
-  price: 99
-  price-description: per kamer per night
-  saved: 52
-  expires: 2018/11/26
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/23013/4219d1c8_ce48_407b_81af_925197629f75.jpg
-  link: https://be.secretescapes.com/lindner-congress-and-motorsport-hotel-nuerburgring-nuerburg-duitsland-1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
   

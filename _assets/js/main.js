@@ -48,20 +48,3 @@ if( today.getMonth() == '11'){
 }
 
 
-// Countdown for advent calendar on overview page
-var adventTile = '.advent';
-var startDate = $(adventTile).data('start');
-var endDate = $(adventTile).data('end');
-
-$('.advent-countdown').countdown(startDate, function(event) {
-  if( today.getMonth() != '11'){
-    $('.advent-countdown').removeClass('is-inactive');
-    $('.advent-message').hide();
-    $('.advent-link').hide();
-    $('.advent-countdown__days').html(event.strftime('%D'));
-    $('.advent-countdown__countdown').html(event.strftime('%H:%M:%S'));
-  }else{
-    $('.advent-countdown').hide();
-    $('.advent-message').removeClass('is-inactive');
-  }
-});
