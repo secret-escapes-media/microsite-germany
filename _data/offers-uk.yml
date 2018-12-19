@@ -1,120 +1,156 @@
 
-- title: arcona LIVING MUENCHEN
-  id: arcona-living-muenchen
-  location: Munich, Germany
-  description: A converted cinema in Munich and Christmas market dates
+- title: Living Hotel Grosser Kurfuerst
+  id: living-hotel-grosser-kurfuerst
+  location: Berlin, Germany
+  description: Elegance and modernity near the centre of Berlin
+  price: 68
+  price-description: per room per night
+  saved: 42
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64876/0ba13851_ac01_468f_b0ab_fafb3b814dea.jpg
+  link: https://www.secretescapes.com/living-hotel-grosser-kurfuerst-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+  
+
+- title: Hotel Q! Berlin
+  id: hotel-q!-berlin
+  location: Berlin, Germany
+  description: A design-led urban hotel with spa in central Berlin
+  price: 80
+  price-description: per room per night
+  saved: 44
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/26283/a60e1a85_e992_46ce_94cf_ce270edf929c.jpg
+  link: https://www.secretescapes.com/hotel-q-berlin-berlin-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+  
+
+- title: Dorint Hotel am Heumarkt Koeln
+  id: dorint-hotel-am-heumarkt-koeln
+  location: Cologne, Germany
+  description: Chic city stay at a central five-star Cologne hotel
+  price: 98
+  price-description: per room per night
+  saved: 53
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81357/9238cae8_ab35_4a96_b5bb_a93d3f541b44.jpg
+  link: https://www.secretescapes.com/dorint-hotel-am-heumarkt-koeln-cologne-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+  
+
+- title: NH Collection Berlin Mitte Friedrichstrasse
+  id: nh-collection-berlin-mitte-friedrichstrasse
+  location: Berlin, Germany
+  description: Sleek style a stone's throw from Berlin's Brandenburg Gate
   price: 88
   price-description: per room per night
-  saved: 45
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/11145/a75bb8f5_8281_408b_aad7_4704de14479a.jpg
-  link: https://www.secretescapes.com/arcona-living-muenchen-muenchen-bayern-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  saved: 42
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/24361/5dbceae4_b4d8_409b_a190_bd9458e32dba.jpg
+  link: https://www.secretescapes.com/nh-berlin-friedrichstrasse-berlin-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
   
 
-- title: The Mandala Berlin
-  id: the-mandala-berlin
-  location: Berlin, Germany
-  description: A five-star hotel with award-winning dining and lush spa
-  price: 150
-  price-description: per suite per night
-  saved: 37
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/52661/7af07223_4ee5_4cce_8396_72cd9b59e91a.jpg
-  link: https://www.secretescapes.com/the-mandala-berlin-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Hotel OTTO
-  id: hotel-otto
-  location: Berlin, Germany
-  description: A hip Berlin design hotel in upscale Charlottenburg
-  price: 79
+- title: SIDE Design Hotel
+  id: side-design-hotel
+  location: Hamburg, Germany
+  description: Five-star, design-led digs in central Hamburg
+  price: 142
   price-description: per room per night
-  saved: 40
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/57414/d668b457_2f83_4123_aaf4_1a52a143290d.jpg
-  link: https://www.secretescapes.com/hotel-otto-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  saved: 37
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84399/408286a6_bd8a_4ecd_8419_39ec2e021480.jpg
+  link: https://www.secretescapes.com/side-design-hotel-hamburg-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
   
 
-- title: Hotel München Palace
-  id: hotel-münchen-palace
+- title: Regent Berlin
+  id: regent-berlin
+  location: Berlin, Germany
+  description: Old-fashioned, five-star elegance in Berlin
+  price: 189
+  price-description: per room per night
+  saved: 43
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/32065/48cee53d_d55b_4cae_817a_aba094304d20.jpg
+  link: https://www.secretescapes.com/regent-berlin-germany-europe/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+  
+
+- title: Steigenberger Hotel de Saxe Dresden
+  id: steigenberger-hotel-de-saxe-dresden
+  location: Dresden, Germany
+  description: <div>Frauenkirche views from a spa hotel in the heart of picturesque Dresden<br></div><div><br></div><div><br></div>
+  price: 88
+  price-description: per room per night
+  saved: 30
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/26278/5dd2808e_dce4_4402_be07_e32d832a8561.jpg
+  link: https://www.secretescapes.com/steigenberger-hotel-de-saxe-dresden-dresden-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+  
+
+- title: BOLD Hotel Giesing
+  id: bold-hotel-giesing
   location: Munich, Germany
-  description: A luxe five-star Munich stay with rooftop terrace and wellness facilities
-  price: 195
+  description: A hip design hotel on the edge of Munich
+  price: 46
   price-description: per room per night
   saved: 52
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59762/7b9beca1_17d1_477a_9057_de1e3bf50a2c.jpg
-  link: https://www.secretescapes.com/hotel-muenchen-palace-munich-germany-1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84310/7434808c_2a4d_4db7_a2f5_7d2ab203596e.jpg
+  link: https://www.secretescapes.com/bold-hotel-giesing-munich-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
   
 
-- title: The Weinmeister Hotel
-  id: the-weinmeister-hotel
-  location: Berlin, Germany
-  description: A hip, high-design spa hotel in Berlin's fashionable Mitte district
-  price: 71
-  price-description: per room per night
-  saved: 63
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/23117/6670c353_beaa_45e3_a506_c25fbcce09de.jpg
-  link: https://www.secretescapes.com/the-weinmeister-hotel-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Adina Apartment Hotel Frankfurt Westend
-  id: adina-apartment-hotel-frankfurt-westend
+- title: IntercityHotel Frankfurt Hauptbahnhof Süd
+  id: intercityhotel-frankfurt-hauptbahnhof-süd
   location: Frankfurt, Germany
-  description: A modern studio stay in Frankfurt with festive dates
-  price: 88
-  price-description: per studio per night
-  saved: 35
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/58102/2ac64fb5_bff2_487d_a602_7bbdf6b45a57.jpg
-  link: https://www.secretescapes.com/adina-apartment-hotel-frankfurt-westend-frankfurt-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  description: A brand-new urban hotel in central Frankfurt&nbsp;
+  price: 62
+  price-description: per room per night
+  saved: 47
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84385/1d0f806c_eb7e_45ff_93bf_88242acfdd74.jpg
+  link: https://www.secretescapes.com/intercityhotel-frankfurt-hauptbahnhof-sued-frankfurt-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
   
 
-- title: Well-located Berlin stay & tickets to the glitzy Presseball
-  id: well-located-berlin-stay-and-tickets-to-the-glitzy-presseball
-  location: Maritim Hotel Berlin, Germany
-  description: A refined Berlin sojourn&nbsp;with glamorous Presseball tickets
-  price: 243
-  price-description: per person for 1 night
-  saved: 24
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59523/85cbaa66_c6f2_472b_acf8_aea10c9d0d63.jpg
-  link: https://www.secretescapes.com/well-located-berlin-stay-and-tickets-to-the-glitzy-presseball-maritim-hotel-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+- title: Hotel Friends Düsseldorf Downtown
+  id: hotel-friends-düsseldorf-downtown
+  location: Düsseldorf, Germany
+  description: A cool concept hotel in central Düsseldorf
+  price: 80
+  price-description: per room per night
+  saved: 48
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74379/7c85a7fc_b952_47de_ad1b_2c3f9e55ecbe.jpg
+  link: https://www.secretescapes.com/hotel-friends-duesseldorf-downtown-duesseldorf-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
   
 
-- title: Hotel the YARD
-  id: hotel-the-yard
+- title: Scandic Hamburg Emporio
+  id: scandic-hamburg-emporio
+  location: Hamburg, Germay
+  description: Eco-friendly outpost in central Hamburg
+  price: 142
+  price-description: per room per night
+  saved: 37
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84590/6814e34d_29b5_4282_ae00_b54857d0cbd1.jpg
+  link: https://www.secretescapes.com/scandic-hamburg-emporio-hamburg-germay/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+  
+
+- title: Berlin Berlin
+  id: berlin-berlin
   location: Berlin, Germany
-  description: A cool and calm design hotel in Berlin's hip Kreuzberg
-  price: 87
+  description: A cool mod hotel in Berlin's Mitte district
+  price: 80
   price-description: per room per night
-  saved: 39
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/52266/270ffd19_e979_4bf8_870a_6ae29dc3cfd0.jpg
-  link: https://www.secretescapes.com/hotel-the-yard-berlin-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  saved: 46
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36340/dd260272_0a0c_41eb_8cd7_65df1bc12846.jpg
+  link: https://www.secretescapes.com/berlin-berlin-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
   
 
-- title: Berlin & Munich city-hop with optional castle & palace tours
-  id: berlin-and-munich-city-hop-with-optional-castle-and-palace-tours
-  location: Park Inn by Radisson Berlin Alexanderplatz Hotel & Holiday Inn Munich - Leuchtenbergring
-  description: See Berlin and Munich on a German getaway, with optional sightseeing tours
-  price: 339
-  price-description: per person for 4 nights
-  saved: 38
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/83533/d7461c25_c817_401b_97c3_9a00748f0976.jpg
-  link: https://www.secretescapes.com/berlin-and-munich-city-hop-with-optional-castle-and-palace-tours-park-inn-by-radisson-berlin-alexanderplatz-hotel-and-holiday-inn-munich-leuchtenbergring/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
-  
-
-- title: Flemings Hotel Frankfurt Messe
-  id: flemings-hotel-frankfurt-messe
-  location: Frankfurt am Main, Germany
-  description: A contemporary hotel in central Frankfurt
-  price: 75
-  price-description: per room per night
-  saved: 33
-  expires: 2018/12/10
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/47861/fd64842c_fb56_41f2_96ea_a56767f64107.jpg
-  link: https://www.secretescapes.com/flemings-hotel-frankfurt-messe-frankfurt-am-main-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+- title: Citadines Munich Arnulfpark
+  id: citadines-munich-arnulfpark
+  location: Munich, Germany
+  description: Live like a local in central Munich with a sleek apartment stay
+  price: 71
+  price-description: per studio per night
+  saved: 36
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/38530/8a784ad9_d03f_49cf_91a7_6d14d6efb29c.jpg
+  link: https://www.secretescapes.com/citadines-munich-arnulfpark-munich-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
   

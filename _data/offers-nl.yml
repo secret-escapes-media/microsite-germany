@@ -1,47 +1,239 @@
 
-- title: Adina Apartment Hotel Frankfurt Westend
-  id: adina-apartment-hotel-frankfurt-westend
-  location: Frankfurt am Main, Duitsland
-  description: Ontdek de topmusea en het bruisende uitgaansleven in hartje Frankfurt, incl. ontbijt
+- title: Hotel Suitess
+  id: hotel-suitess
+  location: Dresden, Duitsland
+  description: Verblijf vlak bij historisch centrum van Dresden, incl. ontbijt &amp; extra's
+  price: 135
+  price-description: kamer per nacht
+  saved: 34
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/14898/c017ef23_d72e_4782_9802_207e189c5ae0.jpg
+  link: https://nl.secretescapes.com/hotel-suitess-dresden-duitsland2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: BOLD Hotel München, Giesing
+  id: bold-hotel-münchen-giesing
+  location: München, Duitsland
+  description: Verblijf in een met liefde vormgegeven boetiekhotel, incl. ontbijt &amp; extra's
+  price: 51
+  price-description: kamer per nacht
+  saved: 52
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84310/7434808c_2a4d_4db7_a2f5_7d2ab203596e.jpg
+  link: https://nl.secretescapes.com/bold-hotel-muenchen-giesing-muenchen-duitsland22/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Steigenberger Hotel Drei Mohren
+  id: steigenberger-hotel-drei-mohren
+  location: Augsburg, Beieren, Duitsland
+  description: Slapen in stijl in de prachtige Maximilianstraße, incl. ontbijt
+  price: 159
+  price-description: kamer per nacht
+  saved: 30
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/32932/364f66a5_f8d3_4081_829c_fdbcc6ffba88.jpg
+  link: https://nl.secretescapes.com/steigenberger-hotel-drei-mohren-augsburg-beieren-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Hotel Villa Toskana
+  id: hotel-villa-toskana
+  location: Leimen, Baden-Württemberg, Duitsland
+  description: Rust en charme vlak bij het prachtige Heidelberg, incl. ontbijt &amp; wellness-toegang
+  price: 128
+  price-description: kamer per nacht
+  saved: 38
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84559/2bb47c7c_32b6_4cae_be00_94e91a448abe.jpg
+  link: https://nl.secretescapes.com/hotel-villa-toskana-leimen-baden-wuerttemberg-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Radisson Blu Hotel Bremen
+  id: radisson-blu-hotel-bremen
+  location: Bremen, Duitsland
+  description: Luxueus designhotel in het hart van historisch Bremen, incl. ontbijt, welkomstdrankje en meer
   price: 99
-  price-description: appartement per nacht
-  saved: 35
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/58102/2ac64fb5_bff2_487d_a602_7bbdf6b45a57.jpg
-  link: https://nl.secretescapes.com/adina-apartment-hotel-frankfurt-westend-frankfurt-am-main-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  price-description: kamer per nacht
+  saved: 42
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/42653/f407f2c3_550a_4a60_819c_30b16d87505e.jpg
+  link: https://nl.secretescapes.com/radisson-blu-hotel-bremen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
 
 
-- title: Mövenpick Hotel Berlin
-  id: mövenpick-hotel-berlin
+- title: Citadines Munich Arnulfpark
+  id: citadines-munich-arnulfpark
+  location: München, Duitsland
+  description: Verblijf als een local in een luxe studio of appartement in München, incl. ontbijt &amp; met extra's
+  price: 79
+  price-description: kamer per nacht
+  saved: 36
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/38530/8a784ad9_d03f_49cf_91a7_6d14d6efb29c.jpg
+  link: https://nl.secretescapes.com/citadines-munich-arnulfpark-muenchen-duitsland44/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Ameron Hotel Abion Spreebogen
+  id: ameron-hotel-abion-spreebogen
   location: Berlijn, Duitsland
-  description: Overnachten in een comfortabel hotel in het hart van inspirerend Berlijn, incl. ontbijt
+  description: Stijlvol hotel in Berlijn's centrale wijk Mitte, incl. ontbijt &amp; extra's
+  price: 88
+  price-description: kamer per nacht
+  saved: 41
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/17831/e2a381b4_ae73_4204_a361_a8d9ae23c92a.jpg
+  link: https://nl.secretescapes.com/ameron-hotel-abion-spreebogen-berlijn-duitsland22/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Derag Livinghotel Grosser Kurfürst
+  id: derag-livinghotel-grosser-kurfürst
+  location: Berlijn, Duitsland
+  description: Betrek de ideale uitvalsbasis voor een bezoek aan bruisend Berlijn, incl. ontbijt
+  price: 76
+  price-description: kamer per nacht
+  saved: 42
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64876/0ba13851_ac01_468f_b0ab_fafb3b814dea.jpg
+  link: https://nl.secretescapes.com/derag-livinghotel-grosser-kurfuerst-berlijn-duitsland44/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Ruby Coco Hotel Düsseldorf
+  id: ruby-coco-hotel-düsseldorf
+  location: Düsseldorf, Duitsland
+  description: Trendy designhotel in internationale stad Düsseldorf, incl. ontbijt&nbsp;
   price: 89
   price-description: kamer per nacht
-  saved: 46
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/14537/a401dea7_53a2_4f56_87bc_98e3a9fb9fbc.jpg
-  link: https://nl.secretescapes.com/movenpick-hotel-berlin-berlijn-duitsland325/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  saved: 47
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84136/a2371373_5c38_4c86_8327_39a02f136667.jpg
+  link: https://nl.secretescapes.com/ruby-coco-hotel-duesseldorf-duesseldorf-duitsland2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
 
 
-- title: Excelsior Hotel Ernst
-  id: excelsior-hotel-ernst
-  location: Keulen, Duitsland
-  description: Genieten op exclusief niveau in 5*-hotel in hartje Keulen, incl. ontbijt, wellness &amp; meer
+- title: Hotel Q! Berlin
+  id: hotel-q!-berlin
+  location: Berlijn, Duitsland
+  description: Van Späti tot sterrenrestaurant in bruisend Berlijn, incl. ontbijt &amp; wellness-toegang
+  price: 89
+  price-description: kamer per nacht
+  saved: 44
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/26283/a60e1a85_e992_46ce_94cf_ce270edf929c.jpg
+  link: https://nl.secretescapes.com/hotel-q-berlin-berlijn-duitsland-4/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: SIDE Design Hotel
+  id: side-design-hotel
+  location: Hamburg, Duitsland
+  description: UNESCO-werelderfgoed in Hamburg, incl. ontbijt &amp; fles mineraalwater
+  price: 159
+  price-description: kamer per nacht
+  saved: 37
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84399/408286a6_bd8a_4ecd_8419_39ec2e021480.jpg
+  link: https://nl.secretescapes.com/side-design-hotel-hamburg-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Steigenberger Hotel de Saxe Dresden
+  id: steigenberger-hotel-de-saxe-dresden
+  location: Dresden, Duitsland
+  description: Uitzicht op de Frauenkirche vanuit een spahotel, incl. ontbijt, fles water &amp; gratis wifi
+  price: 99
+  price-description: kamer per nacht
+  saved: 30
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/12691/c9ab79dd_087a_4979_9893_2b85c3aa5850.jpg
+  link: https://nl.secretescapes.com/steigenberger-hotel-de-saxe-dresden-dresden-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Wellness and Vitalhotel Bohmhof
+  id: wellness-and-vitalhotel-bohmhof
+  location: Bohmhof, Duitsland
+  description: Wellnesshotel in de schilderachtige natuur van Beieren, o.b.v. halfpension &amp; met extra's
+  price: 168
+  price-description: kamer per nacht
+  saved: 27
+  expires: 2018/12/23
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64146/0f46cf42_098d_4b57_9624_c057ee637d64.jpg
+  link: https://nl.secretescapes.com/wellness-and-vitalhotel-bohmhof-bohmhof-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Dorint Hotel Am Heumarkt Köln
+  id: dorint-hotel-am-heumarkt-köln
+  location: Keulen, Noordrijn-Westfalen, Duitsland
+  description: Comfortabel overnachten met uitzicht op de Keulse dom, incl. ontbijt
+  price: 109
+  price-description: kamer per nacht
+  saved: 53
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81357/9238cae8_ab35_4a96_b5bb_a93d3f541b44.jpg
+  link: https://nl.secretescapes.com/dorint-hotel-am-heumarkt-koln-keulen-noordrijn-westfalen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Hotel Breggers Schwanen
+  id: hotel-breggers-schwanen
+  location: Bernau im Schwarzwald, Baden-Württemberg, Duitsland
+  description: Uniek hotel in Alpenstijl in het prachtige Bernau im Schwarzwald, o.b.v. halfpension
   price: 189
   price-description: kamer per nacht
   saved: 47
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/13826/27a48034_8a12_425f_b931_96f56a69b40c.jpg
-  link: https://nl.secretescapes.com/excelsior-hotel-ernst-keulen-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/60519/9b180fdb_cfc6_4f4f_91fa_a4c872aa1c61.jpg
+  link: https://nl.secretescapes.com/hotel-breggers-schwanen-bernau-im-schwarzwald-baden-wuerttemberg-duitsland3/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
 
 
-- title: The Weinmeister Berlin Mitte
-  id: the-weinmeister-berlin-mitte
-  location: Berlijn, Duitsland
-  description: Kunst, design en graffiti in designhotel in Berlijn Mitte, incl. ontbijt
-  price: 80
+- title: Hotel Traube Tonbach
+  id: hotel-traube-tonbach
+  location: Baiersbronn, Baden-Württemberg, Duitsland
+  description: 5*-hotel met bekroond restaurant, incl. ontbijt of halfpension&nbsp;
+  price: 279
   price-description: kamer per nacht
-  saved: 63
-  expires: 2018/12/03
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/23117/6670c353_beaa_45e3_a506_c25fbcce09de.jpg
-  link: https://nl.secretescapes.com/the-weinmeister-berlin-mitte-berlijn-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=November2018
+  saved: 47
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74211/05399d8e_1e2c_4b76_a685_e84b77385e6b.jpg
+  link: https://nl.secretescapes.com/hotel-traube-tonbach-baiersbronn-baden-wuerttemberg-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Hotel Friends Düsseldorf Downtown
+  id: hotel-friends-düsseldorf-downtown
+  location: Düsseldorf, Duitsland
+  description: Maak een stedentrip naar veelzijdig Düsseldorf, incl. ontbijt &amp; welkomstdrankje
+  price: 89
+  price-description: kamer per nacht
+  saved: 48
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74379/7c85a7fc_b952_47de_ad1b_2c3f9e55ecbe.jpg
+  link: https://nl.secretescapes.com/hotel-friends-duesseldorf-downtown-duesseldorf-duitsland4/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Romantik Hotel Schloss Rettershof
+  id: romantik-hotel-schloss-rettershof
+  location: Kelkheim (Taunus), Hessen, Duitsland
+  description: Historische allure tussen het heuvelachtige groen, incl. ontbijt &amp; optioneel 1x driegangendine
+  price: 156
+  price-description: kamer per nacht
+  saved: 40
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/60709/f37f4edc_cbe7_4fd2_a80b_6a405b298836.jpg
+  link: https://nl.secretescapes.com/romantik-hotel-schloss-rettershof-kelkheim-taunus-hessen-duitsland45/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Hotel Berlin, Berlin
+  id: hotel-berlin-berlin
+  location: Berlijn, Duitsland
+  description: Overnachten in het hippe en luxe Mitte, Berlijn, incl. ontbijt &amp; extra's&nbsp;
+  price: 89
+  price-description: kamer per nacht
+  saved: 46
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36340/dd260272_0a0c_41eb_8cd7_65df1bc12846.jpg
+  link: https://nl.secretescapes.com/hotel-berlin-berlin-berlijn-duitsland-3/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
+
+
+- title: Kurpark Brilon
+  id: kurpark-brilon
+  location: Brilon, Sauerland, Duitsland
+  description: Kastelen en druipsteengrotten in een inspirerend kuuroord in het Sauerland, o.b.v. halfpension
+  price: 95
+  price-description: kamer per nacht
+  saved: 38
+  expires: 2018/12/24
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84991/06044fdc_c0b4_4688_abdc_fa799f302d7d.jpg
+  link: https://nl.secretescapes.com/kurpark-brilon-brilon-sauerland-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=December2018
