@@ -71,33 +71,6 @@
 
         <div class="row">
 
-          <!-- Advent calendar -->
-          {% assign adventpage = site.html_pages | where: "id", "advent-calendar" | where: 'region', page.region %}
-          {% for adventpage in adventpage %}
-          <div class="col col--xl-8">
-            <div class="advent overview__tile border--inset" data-start="{{page.advent.start-date}}" data-end="{{page.advent.end-date}}" style="background-image: url({{site.img}}/content/overview/advent-calendar.jpg);">
-
-              <a href="{{site.baseurl}}{{adventpage.url}}" class="advent-link bg-img__link"></a>
-
-              <div class="bg-img__content">
-                <div class="boxpad--lg">
-
-                  <div class="advent-message">
-                    <h4 class="title title--xxs text--medium text--upper text--wide-kern">{{page.advent.live.subtitle}}</h4>
-                    <span class="title title--lg title--display text--bold text--italic">{{page.advent.live.title}}</span>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-
-          {% assign sp_christmas = site.html_pages | where: "id", "christmas" | where: 'region', page.region %}
-          {% for subpage in sp_christmas %}
-            {% include page/overview-tile.html %}
-          {% endfor %}
-
           {% assign subpages = site.html_pages | where: "layout", "content-page" | where: 'region', page.region | sort: "group-order" %}
           {% for subpage in subpages %}
             {% unless subpage.id == "christmas" %}
