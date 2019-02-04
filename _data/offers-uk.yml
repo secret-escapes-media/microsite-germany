@@ -1,144 +1,72 @@
 
-- title: Rocco Forte Hotel de Rome Berlin
-  id: rocco-forte-hotel-de-rome-berlin
+- title: The Westin Grand Berlin
+  id: the-westin-grand-berlin
   location: Berlin, Germany
-  description: A five-star Berlin hotel with a rooftop bar and a luxury spa
-  price: 205
+  description: A glamorous five-star spa hotel in Berlin's Mitte district
+  price: 115
   price-description: per room per night
-  saved: 60
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/24859/4933d043_e0a4_4bed_86b5_f9eb09a0cff1.jpg
-  link: https://www.secretescapes.com/rocco-forte-hotel-de-rome-berlin-berlin-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 56
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/27808/6b9e6985_15d8_43d3_a611_0864ca6c5b91.jpg
+  link: https://www.secretescapes.com/the-westin-grand-berlin-berlin-germany33/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
   
 
-- title: Sir Nikolai
-  id: sir-nikolai
+- title: Citadines Michel Hamburg
+  id: citadines-michel-hamburg
   location: Hamburg, Germany
-  description: An uber-swish boutique gem in the heart of Hamburg's old town
-  price: 143
-  price-description: per room per night
-  saved: 32
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/49611/b70f4fc5_ad55_41cc_b5c9_98d025d5bf59.jpg
-  link: https://www.secretescapes.com/sir-nikolai-hamburg-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-  
-
-- title: Citadines Kurfürstendamm Berlin
-  id: citadines-kurfürstendamm-berlin
-  location: Berlin, Germany
-  description: A studio apartment stay on buzzing Berlin's Ku'Damm
-  price: 62
+  description: A sleek studio apartment near Hamburg’s Elbe River
+  price: 88
   price-description: per studio per night
-  saved: 57
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39827/2c464b1e_db7c_4c9c_8332_eae76501738d.jpg
-  link: https://www.secretescapes.com/citadines-kurfuerstendamm-berlin-berlin-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 52
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/56761/657d11d8_8a9b_4ac5_841d_badf307b93dd.jpg
+  link: https://www.secretescapes.com/citadines-michel-hamburg-hamburg-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
   
 
-- title: The Midtown Cologne
-  id: the-midtown-cologne
+- title: Lindner Congress Hotel Düsseldorf
+  id: lindner-congress-hotel-düsseldorf
+  location: Düsseldorf, Germany
+  description: A stylish hotel near downtown Düsseldorf
+  price: 88
+  price-description: per room per night
+  saved: 40
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/47837/882a35f2_81a5_42dd_8245_cb8b2aa988c4.jpg
+  link: https://www.secretescapes.com/lindner-congress-hotel-dusseldorf-duesseldorf-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  
+
+- title: Excelsior Hotel Ernst
+  id: excelsior-hotel-ernst
   location: Cologne, Germany
-  description: A hip stay at a boutique hotel in central Cologne
-  price: 76
-  price-description: per room per night
-  saved: 48
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/70596/1f6b9635_8e82_4b55_81f6_79552e172e43.jpg
-  link: https://www.secretescapes.com/the-midtown-cologne-cologne-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  description: A glamorous five-star stay opposite Cologne Cathedral
+  price: 169
+  price-description: per rooms per night
+  saved: 49
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/13826/df84b391_99a3_496f_bde3_2c5507e8cc39.jpg
+  link: https://www.secretescapes.com/excelsior-hotel-ernst-cologne-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
   
 
-- title: Ruby Lilly Hotel Munich
-  id: ruby-lilly-hotel-munich
-  location: Munich, Germany
-  description: Urban design-led digs near the centre of Munich
-  price: 89
+- title: Hilton Dusseldorf
+  id: hilton-dusseldorf
+  location: Dusseldorf, Germany
+  description: A contemporary Hilton hotel stay in Dusseldorf
+  price: 79
   price-description: per room per night
-  saved: 37
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46766/538e3883_bb9f_4f2e_8b0c_89f14eed5db6.jpg
-  link: https://www.secretescapes.com/ruby-lilly-hotel-munich-munich-germany-2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 49
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/51112/ca7e946e_1a68_400b_aac7_1004c789c291.jpg
+  link: https://www.secretescapes.com/hilton-dusseldorf-dusseldorf-germany44/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
   
 
-- title: Hotel Taschenbergpalais Kempinski Dresden
-  id: hotel-taschenbergpalais-kempinski-dresden
-  location: Dresden, Germany
-  description: Baroque style at a five-star central Dresden hotel
-  price: 134
-  price-description: per room per night
-  saved: 39
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85511/bd243988_a5a9_41b9_9492_68ab93db5e70.jpg
-  link: https://www.secretescapes.com/taschenbergpalais-kempinski-dresden-dresden-germany-2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-  
-
-- title: nhow Berlin
-  id: nhow-berlin
-  location: Berlin, Germany
-  description: A design-led Berlin spa stay with musical inspiration
-  price: 89
-  price-description: per room per night
-  saved: 46
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/32370/8e41b88c_faa7_46d3_96c4_3c5d9179956a.jpg
-  link: https://www.secretescapes.com/nhow-berlin-berlin-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-  
-
-- title: Holiday Inn Berlin - City East Side
-  id: holiday-inn-berlin---city-east-side
-  location: Berlin, Germany
-  description: Contemporary digs near Berlin's vibrant heart
-  price: 71
-  price-description: per room per night
-  saved: 57
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/50363/6a0c7946_94d0_4317_92ef_ac8faa05d66e.jpg
-  link: https://www.secretescapes.com/holiday-inn-berlin-city-east-side-berlin-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-  
-
-- title: La Maison Munich
-  id: la-maison-munich
-  location: Munich, Germany
-  description: Boutique hotel close to Munich city centre
-  price: 134
-  price-description: per room per night
-  saved: 35
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/34283/ec12bc5c_150c_4d6a_a2f9_716ba6c89b55.jpg
-  link: https://www.secretescapes.com/la-maison-munich-munich-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-  
-
-- title: arcona LIVING GOETHE87 Berlin
-  id: arcona-living-goethe87-berlin
-  location: Berlin, Germany
-  description: A stylish stay in hip and central Charlottenburg
-  price: 80
-  price-description: per room per night
-  saved: 42
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/44628/ef8bac82_2e4e_4e98_a697_51a1e40a3e91.jpg
-  link: https://www.secretescapes.com/arcona-living-goethe87-berlin-berlin-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-  
-
-- title: Boston Hotel Hamburg
-  id: boston-hotel-hamburg
+- title: Park Hyatt Hamburg
+  id: park-hyatt-hamburg
   location: Hamburg, Germany
-  description: A swish Hamburg hotel near the city centre
-  price: 108
+  description: An award-winning five-star spa hotel in the heart of Hamburg
+  price: 160
   price-description: per room per night
-  saved: 38
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/23703/3231f13c_84d5_4d5e_8648_69d169e7afeb.jpg
-  link: https://www.secretescapes.com/boston-hotel-hamburg-hamburg-germany-uk/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-  
-
-- title: Wyndham Garden Dresden
-  id: wyndham-garden-dresden
-  location: Dresden, Germany
-  description: A contemporary hotel on the outskirts of Dresden
-  price: 53
-  price-description: per room per night
-  saved: 48
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86008/90417cb5_4279_44b9_97b7_02fff6f57237.jpg
-  link: https://www.secretescapes.com/wyndham-garden-dresden-dresden-germany1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 43
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/42673/6557e5cb_7224_4805_b0f8_8244e75d4760.jpg
+  link: https://www.secretescapes.com/park-hyatt-hamburg-hamburg-germany/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
   

@@ -1,251 +1,215 @@
 
-- title: Beleef middeleeuwse kersttradities in München
-  id: beleef-middeleeuwse-kersttradities-in-münchen
-  location: Ruby Lilly Hotel Munich, München, Duitsland
-  description: Luxe overnachten in de hippe wijk Maxvorstadt, incl. ontbijt
+- title: The Westin Grand Berlin
+  id: the-westin-grand-berlin
+  location: Berlijn, Duitsland
+  description: Vorstelijk 5*-verblijf in pronkhotel bij Unter den Linden, incl. ontbijt &amp; meer
+  price: 129
+  price-description: per kamer per night
+  saved: 56
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/27808/6b9e6985_15d8_43d3_a611_0864ca6c5b91.jpg
+  link: https://be.secretescapes.com/the-westin-grand-berlin-berlijn/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Hotel Schloss Gehrden
+  id: hotel-schloss-gehrden
+  location: Brakel-Gehrden, Nordrhein-Westfalen, Duitsland
+  description: Historische wijnkelder en levendige legenden, incl. ontbijt &amp; 1x diner
+  price: 89
+  price-description: per kamer per night
+  saved: 58
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/16271/926e22d2_7024_4504_87c4_f0f441177fae.jpg
+  link: https://be.secretescapes.com/hotel-schloss-gehrden-brakel-gehrden-nordrhein-westfalen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Excelsior Hotel Ernst
+  id: excelsior-hotel-ernst
+  location: Keulen, Nordrhein-Westfalen, Duitsland
+  description: 5*-hotel in hartje Keulen, incl. ontbijt &amp; wellness-toegang
+  price: 189
+  price-description: per kamer per night
+  saved: 49
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/13826/df84b391_99a3_496f_bde3_2c5507e8cc39.jpg
+  link: https://be.secretescapes.com/excelsior-hotel-ernst-keulen-nordrhein-westfalen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Hilton Düsseldorf
+  id: hilton-düsseldorf
+  location: Düsseldorf, Nordrhein-Westfalen, Duitsland
+  description: Geniet van Düsseldorf tijdens een heerlijke stedentrip, incl. ontbijt
+  price: 89
+  price-description: per kamer per night
+  saved: 49
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/51112/ca7e946e_1a68_400b_aac7_1004c789c291.jpg
+  link: https://be.secretescapes.com/hilton-duesseldorf-duesseldorf-nordrhein-westfalen-duitsland2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Citadines Michel Hamburg
+  id: citadines-michel-hamburg
+  location: Hamburg, Duitsland
+  description: Citytrip naar de bruisende metropool Hamburg, incl. ontbijt &amp; extra's
   price: 99
+  price-description: per appartement per night
+  saved: 52
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/56761/657d11d8_8a9b_4ac5_841d_badf307b93dd.jpg
+  link: https://be.secretescapes.com/citadines-michel-hamburg-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Roewers Privathotel - The Spa Concept
+  id: roewers-privathotel---the-spa-concept
+  location: Ostseebad Sellin,Mecklenburg-Vorpommern, Duitsland
+  description: Prachtig 5*-hotel aan de Baltische Zee, incl. ontbijt, wellness &amp; extra's
+  price: 145
+  price-description: per suite per night
+  saved: 33
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/58513/987ba523_aefe_43b4_b858_5eb259ea46b6.jpg
+  link: https://be.secretescapes.com/roewers-privathotel-the-spa-concept-ostseebad-sellin-mecklenburg-vorpommern-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Steigenberger Hotel Metropolitan
+  id: steigenberger-hotel-metropolitan
+  location: Frankfurt, Duitsland
+  description: 5*-verblijf in verrassend Frankfurt vol musea, wolkenkrabbers en groen, incl. ontbijt
+  price: 129
+  price-description: per kamer per night
+  saved: 20
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/27319/3f1ca88a_1f9d_4316_af13_a9d4c415bc54.jpg
+  link: https://be.secretescapes.com/steigenberger-hotel-metropolitan-frankfurt-duitsland-1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Felix im lebendigen Haus
+  id: felix-im-lebendigen-haus
+  location: Dresden, Duitsland
+  description: Concepthotel met dakterras in het hart van de stad, incl. ontbijt &amp; welkomstdrankje
+  price: 88
+  price-description: per kamer per night
+  saved: 38
+  expires: 2019/01/25
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/75807/b715c31b_b768_4bf1_a71b_c169059de798.jpg
+  link: https://be.secretescapes.com/felix-im-lebendigen-haus-dresden-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Lindner Congress Hotel Dusseldorf
+  id: lindner-congress-hotel-dusseldorf
+  location: Düsseldorf, Noordrijn-Westfalen, Duitsland
+  description: Maritieme luxe nabij de Rijn in mode- en kunststad Düsseldorf, incl. ontbijt en parkeren
+  price: 99
+  price-description: per kamer per night
+  saved: 40
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/47837/882a35f2_81a5_42dd_8245_cb8b2aa988c4.jpg
+  link: https://be.secretescapes.com/lindner-congress-hotel-dusseldorf-noordrijn-westfalen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Lindner Parkhotel & Spa Oberstaufen
+  id: lindner-parkhotel-and-spa-oberstaufen
+  location: Oberstaufen, Beieren, Duitsland
+  description: Ontspanning en rust in de gezonde berglucht, o.b.v. halfpension &amp; met wellness
+  price: 198
   price-description: per kamer per night
   saved: 37
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46766/538e3883_bb9f_4f2e_8b0c_89f14eed5db6.jpg
-  link: https://be.secretescapes.com/beleef-middeleeuwse-kersttradities-in-muenchen-ruby-lilly-hotel-munich-muenchen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/24462/72b9cb1f_1476_4705_ad20_216c48ddd8c0.jpg
+  link: https://be.secretescapes.com/lindner-parkhotel-and-spa-oberstaufen-oberstaufen-beieren-duitsland-1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
 
 
-- title: Romantik Hotel Das Lindner
-  id: romantik-hotel-das-lindner
-  location: Bad Aibling, Beieren, Duitsland
-  description: Romantische wellnessvakantie in een traditioneel hotel in het Duitse Beieren, incl. ontbijt
-  price: 189
-  price-description: per kamer per night
-  saved: 34
-  expires: 2019/01/11
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85672/ae5aeb63_d774_4306_85b3_f07d780381b2.jpg
-  link: https://be.secretescapes.com/romantik-hotel-lindner-bad-aibling-beieren-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Kerstkoren & glühwein op de kerstmarkt in Hamburg
-  id: kerstkoren-and-glühwein-op-de-kerstmarkt-in-hamburg
-  location: "Sir Nikolai Hotel Hamburg: Hamburg, Duitsland"
-  description: Prachtig boetiekhotel in hartje Hamburg, incl. ontbijt &amp; welkomstdrankje
-  price: 159
-  price-description: per kamer per night
-  saved: 32
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/49611/b70f4fc5_ad55_41cc_b5c9_98d025d5bf59.jpg
-  link: https://be.secretescapes.com/kerstkoren-and-gluehwein-op-de-kerstmarkt-in-hamburg-sir-nikolai-hotel-hamburg-hamburg-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Wyndham Garden Dresden
-  id: wyndham-garden-dresden
-  location: Dresden, Duitsland
-  description: Langs de Elbe wandelen vanuit dit moderne hotel, incl. ontbijt
-  price: 59
-  price-description: per kamer per night
-  saved: 48
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86008/90417cb5_4279_44b9_97b7_02fff6f57237.jpg
-  link: https://be.secretescapes.com/wyndham-garden-dresden-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Felix im Lebendigen Haus Leipzig
-  id: felix-im-lebendigen-haus-leipzig
-  location: Leipzig, Duitsland
-  description: Moderne kunst, levendige markten en muziekgeschiedenis in de stad van Bach, incl. ontbijt&nbsp;
-  price: 95
-  price-description: per kamer per night
-  saved: 29
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85518/9b6a2c9f_bc96_4f70_aa75_65d220b74dec.jpg
-  link: https://be.secretescapes.com/felix-im-lebendigen-haus-leipzig-leipzig-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Arcona Living Bremen
-  id: arcona-living-bremen
-  location: Bremen, Duitsland
-  description: Slapen in het hart van de Hanzestad, incl. ontbijt
-  price: 90
-  price-description: per kamer per night
-  saved: 34
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85626/3b3b8f79_58be_4ef1_bbd5_487807eed486.jpg
-  link: https://be.secretescapes.com/arcona-living-bremen-bremen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Hotel Mein Inselglück
-  id: hotel-mein-inselglück
-  location: Insel Reichenau, Bodenmeer, Duitsland
-  description: Uniek verblijf op UNESCO-bekroond eiland Reichenau, incl. ontbijt &amp; extra's
-  price: 139
-  price-description: per kamer per night
-  saved: 46
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/26437/c4a5a4c0_606a_4de9_92be_915fd40197ce.jpg
-  link: https://be.secretescapes.com/hotel-mein-inselglueck-insel-reichenau-bodenmeer-duitsland123/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Kempinski Hotel Frankfurt Gravenbruch
-  id: kempinski-hotel-frankfurt-gravenbruch
-  location: Frankfurt am Main, Duitsland
-  description: "Voormalig jachtslot bij Frankfurt, incl. ontbijt &amp; extra's"
-  price: 149
-  price-description: per kamer per night
-  saved: 47
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/18827/8fda90ed_135c_4399_86f3_d69a15a290f1.jpg
-  link: https://be.secretescapes.com/kempinski-hotel-frankfurt-gravenbruch-frankfurt-am-main-duitsland55/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Steigenberger Grandhotel Petersberg
-  id: steigenberger-grandhotel-petersberg
-  location: Petersberg, Bonn, Duitsland
-  description: 5*-paleis met statige geschiedenis en uitzicht over het Rijndal, incl. ontbijt &amp; extra's
-  price: 159
-  price-description: per kamer per night
-  saved: 30
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85520/d9fd599d_4be1_48fd_94e2_687331e4d86f.jpg
-  link: https://be.secretescapes.com/steigenberger-grandhotel-petersberg-petersberg-bonn-duitsland234/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Hotel Taschenbergpalais Kempinski Dresden
-  id: hotel-taschenbergpalais-kempinski-dresden
-  location: Dresden, Duitsland
-  description: Koninklijk slapen in een van Duitslands mooiste steden, incl. ontbijt &amp; veel extra's
-  price: 149
-  price-description: per kamer per night
-  saved: 39
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85511/bd243988_a5a9_41b9_9492_68ab93db5e70.jpg
-  link: https://be.secretescapes.com/hotel-taschenbergpalais-kempinski-dresden-dresden-duitsland123/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Holiday Inn Berlin - City East Side
-  id: holiday-inn-berlin---city-east-side
+- title: Goodman’s Living
+  id: goodmans-living
   location: Berlijn, Duitsland
-  description: De ideale uitvalsbasis voor bruisend Berlijn, incl. ontbijt &amp; vele extra's
+  description: Ruim appartement in bruisend Berlijn, incl. ontbijt &amp; extra's&nbsp;
+  price: 80
+  price-description: per appartement per night
+  saved: 37
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/59554/fb443230_33cc_457e_b516_2a68837c36c0.jpg
+  link: https://be.secretescapes.com/goodmans-living-berlijn-duitsland2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Fleming's Conference Hotel Frankfurt
+  id: flemings-conference-hotel-frankfurt
+  location: Frankfurt, Duitsland
+  description: Modern hotel in een van de leukste cultuursteden die Duitsland rijk is, incl. ontbijt &amp; extra's
   price: 79
   price-description: per kamer per night
-  saved: 57
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/50363/6a0c7946_94d0_4317_92ef_ac8faa05d66e.jpg
-  link: https://be.secretescapes.com/holiday-inn-berlin-city-east-side-berlijn-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 21
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86567/35f79b6b_11cf_4d07_a153_271ab575446b.jpg
+  link: https://be.secretescapes.com/flemings-conference-hotel-frankfurt-frankfurt-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
 
 
-- title: Parkhotel Schillerhain
-  id: parkhotel-schillerhain
-  location: Kirchheimbolanden, Rheinland-Pfalz, Duitsland
-  description: Historisch kuurhuis midden in de natuur, incl. ontbijt, wellnesstoegang &amp; extra's
-  price: 89
-  price-description: per kamer per night
-  saved: 43
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/53120/f3437901_6230_4f1a_91d9_cbf0dc4ca9bd.jpg
-  link: https://be.secretescapes.com/parkhotel-schillerhain-kirchheimbolanden-rheinland-pfalz-duitsland123/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Göbel's Seehotel Diemelsee
-  id: göbels-seehotel-diemelsee
-  location: Diemelsee-Heringhausen, Hessen, Duitsland
-  description: Duits natuurparadijs voor dagdromers, romantici en wellnessliefhebbers&nbsp;
-  price: 149
-  price-description: per kamer per night
-  saved: 32
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/67009/fdaf173e_2445_4707_ae7a_7dbd92f1166f.jpg
-  link: https://be.secretescapes.com/goebels-seehotel-diemelsee-heringhausen-hessen-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Hotel Elephant Weimar
-  id: hotel-elephant-weimar
-  location: Weimar, Duitsland
-  description: 1300 jaar geschiedenis in de culturele stad van Goethe en Schiller, incl. ontbijt &amp; 1x diner
-  price: 139
-  price-description: per kamer per night
-  saved: 44
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85808/5d42dfc5_7db0_4a06_bd70_bfb554a51194.jpg
-  link: https://be.secretescapes.com/hotel-elephant-weimar-weimar-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Maritim proArte Hotel Berlin
-  id: maritim-proarte-hotel-berlin
-  location: Berlijn, Duitsland
-  description: Berlijn ontdekken vanuit modern 4*-hotel in hartje Berlijn, incl. ontbijt
-  price: 109
+- title: Harry‘s Home Hotel München
+  id: harry‘s-home-hotel-münchen
+  location: München, Duitsland
+  description: Prachtige kastelen en talloze bierkelders in schitterend München, incl. ontbijt
+  price: 79
   price-description: per kamer per night
   saved: 33
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/63439/1bc52496_43bd_4644_a933_deabf034170f.jpg
-  link: https://be.secretescapes.com/maritim-proarte-hotel-berlijn-duitsland/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/66132/6e2fe0ac_f5cc_41fb_a94c_b6cef11cb033.jpg
+  link: https://be.secretescapes.com/harrys-home-hotel-muenchen-muenchen-duitsland-1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
 
 
-- title: Steigenberger Parkhotel Düsseldorf
-  id: steigenberger-parkhotel-düsseldorf
-  location: Düsseldorf, Duitsland
-  description: 5*-hotel in hartje Düsseldorf met koninklijke kamers, incl. ontbijtbuffet
-  price: 189
+- title: Park Hyatt Hamburg
+  id: park-hyatt-hamburg
+  location: Hamburg, Duitsland
+  description: Stijlvol vijfsterrenhotel in het hippe Hamburg, incl. ontbijt &amp; wellness
+  price: 179
   price-description: per kamer per night
-  saved: 30
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/28561/a82ccd66_47a7_47cf_95f8_97832a890cb6.jpg
-  link: https://be.secretescapes.com/steigenberger-parkhotel-duesseldorf-duesseldorf-duitsland123/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 43
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/42673/8f084a44_fc4a_41bd_b0cb_db5494ff4bba.jpg
+  link: https://be.secretescapes.com/park-hyatt-hamburg-hamburg-duitsland4/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
 
 
-- title: nhow Berlin
-  id: nhow-berlin
-  location: Berlijn, Duitsland
-  description: Muzikale reis naar Berlijn in een hotel waar alles draait om muziek en design
-  price: 99
+- title: Göbel's Hotel AquaVita
+  id: göbels-hotel-aquavita
+  location: Bad Wildungen, Duitsland
+  description: Een idyllische escape naar een thermaal kuuroord, incl. ontbijt &amp; wellness
+  price: 139
   price-description: per kamer per night
-  saved: 46
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/32370/8e41b88c_faa7_46d3_96c4_3c5d9179956a.jpg
-  link: https://be.secretescapes.com/nhow-berlin-berlijn-duitsland-2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 51
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/85914/aeae1d2c_8ee4_4c47_a7eb_9ed0a0ace42c.jpg
+  link: https://be.secretescapes.com/gobels-hotel-aquavita-bad-wildungen-duitsland1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
 
 
-- title: The Midtown Hotel
-  id: the-midtown-hotel
-  location: Keulen, Duitsland
-  description: <div>Fraai designhotel in hartje Keulen, o.b.v. logies of met ontbijt &amp; extra's<br></div>
-  price: 85
+- title: Lindner Hotel & Sporting Club Wiesensee
+  id: lindner-hotel-and-sporting-club-wiesensee
+  location: Westerburg in Westerwald, Rheinland-Pfalz, Duitsland
+  description: Paradijs voor wandelaars, golfliefhebbers en romantici, incl. ontbijt &amp; extra's
+  price: 109
   price-description: per kamer per night
-  saved: 48
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/70596/1f6b9635_8e82_4b55_81f6_79552e172e43.jpg
-  link: https://be.secretescapes.com/the-midtown-hotel-keulen-duitsland-2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 51
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/23229/525e69f8_672b_4227_9874_1cfad92e713c.jpg
+  link: https://be.secretescapes.com/lindner-hotel-and-sporting-club-wiesensee-westerburg-in-westerwald-rheinland-pfalz-duitsland11/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
 
 
-- title: Allgau Stern Hotel
-  id: allgau-stern-hotel
-  location: Sonthofen, Beieren, Duitsland
-  description: Elegant hotel in de buurt van de bruisende stad Sonthofen, o.b.v. halfpension
-  price: 149
-  price-description: per kamer per night
-  saved: 46
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/64641/14c6aab9_d535_4be9_9938_077c419036c7.jpg
-  link: https://be.secretescapes.com/allgau-stern-hotel-sonthofen-beieren-duitsland-1/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: A-ROSA Travemünde
-  id: a-rosa-travemünde
-  location: Travemünde, Schleswig-Holstein
-  description: Verfijnd wellnesshotel aan zee in Noord-Duitse kustparel Lübeck, o.b.v. halfpension
-  price: 218
-  price-description: per kamer per night
-  saved: 30
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/79408/42982d93_baf6_4147_a155_9f1d4c7564a2.jpg
-  link: https://be.secretescapes.com/a-rosa-travemuende-travemuende-schleswig-holstein-2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
-
-
-- title: Arcona LIVING GOETHE87
-  id: arcona-living-goethe87
-  location: Berlijn, Duitsland
-  description: Beleef Berlijn vanuit je eigen smaakvolle studio, incl. ontbijt &amp; extra's
+- title: Steigenberger Hotel Deidesheim
+  id: steigenberger-hotel-deidesheim
+  location: Deidesheim, Rheinland-Pfalz, Duitsland
+  description: In de culinaire hoofdstad van de Pfalz, incl. ontbijt, 1x diner &amp; extra's
   price: 89
   price-description: per kamer per night
-  saved: 42
-  expires: 2019/01/14
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/44628/ef8bac82_2e4e_4e98_a697_51a1e40a3e91.jpg
-  link: https://be.secretescapes.com/arcona-living-goethe87-berlijn-duitsland55/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+  saved: 30
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/86577/c3a4858d_07d5_474c_94f0_71f19d51228a.jpg
+  link: https://be.secretescapes.com/steigenberger-hotel-deidesheim-deidesheim-rheinland-pfalz-duitsland3/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
+
+
+- title: Hotel FAEHRHAUS Koblenz
+  id: hotel-faehrhaus-koblenz
+  location: Koblenz, Duitsland
+  description: Hotel met wellness in het historische Koblenz, incl. ontbijt &amp; wellness-toegang
+  price: 130
+  price-description: per kamer per night
+  saved: 60
+  expires: 2019/01/28
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87206/0b646c16_bc53_4c2d_b7ab_adea4890cb32.jpg
+  link: https://be.secretescapes.com/hotel-faehrhaus-koblenz-duitsland2/sale?utm_source=SE_media&utm_medium=Germany&utm_campaign=January2019
