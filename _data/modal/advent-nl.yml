@@ -1,0 +1,253 @@
+
+
+
+############################################
+##    ADVENT CALENDAR
+##------------------------------------------
+
+
+- type: advent
+  id: europa-park
+  day: 1
+  title: Europa-Park
+  content: >
+    Laat de spannende attracties van Europa-Park jouw winter wonderhart opwarmen!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: swabian-cuisine
+  day: 2
+  title: Zwabische keuken
+  content: >
+    Proef de Zwabische keuken in Stuttgart en maak een glühwein-excursie door de wijngaarden in de omgeving.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: pfronten
+  day: 3
+  title: Pfronten
+  content: >
+    Bouw je eigen iglo in Pfronten, Beieren. Ontdek al langlaufend dit magische landschap en vind de perfecte plek voor jouw iglo.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: christmas-in-nuremberg
+  day: 4
+  title: Kerst in Neurenberg
+  content: >
+    Bezoek een van Duitslands oudste kerstmarkten tijdens een reis naar het historische Neurenberg - mis ook de iconische worst niet!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: berlin-s-botanical-gardens
+  day: 5
+  title: Botanische Tuinen van Berlijn
+  content: >
+    Ontdek het magische winterspektakel in de botanische tuinen van Berlijn. Tijdens de periode rondom de feestdagen worden de tuinen omgetoverd tot een prachtig verlicht wonderland.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: quedlinburg
+  day: 6
+  title: Quedlinburg
+  content: >
+    Altijd al willen weten wat er achter de deuren van de binnenhofjes in vakwerkstad Quedlinburg verscholen gaat? Tijdens de adventsweekenden openen de mooiste hofjes hun deuren voor bezoekers en vind je er sfeervolle markten met originele cadeautjes.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: wellness-retreats
+  day: 7
+  title: Wellnesscentra
+  content: >
+    Dompel jezelf onder in Duitse wellness aan de Baltische kust bij Mecklenburg-Voor-Pommeren. Hier ontsnap je aan de winterse sleur en kom je in een luxueuze omgeving helemaal tot rust.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: christmas-in-bremen
+  day: 8
+  title: Kerst in Bremen
+  content: >
+    Ontdek de historische kerstmarkt in Bremen, waar de honingwijn vloeit en kooplui hun waren verkopen op het feestelijk verlichte marktplein. Hier komen de middeleeuwen echt tot leven!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: miniatur-wunderland
+  day: 9
+  title: Miniatur Wunderland
+  image-credit: © Miniatur Wunderland / -
+  content: >
+    Ontdek de wereld in het klein bij Miniatur Wunderland in Hamburg. Zie de modelmakers aan het werk en kijk hoe dit kleine wonderland wordt gemaakt. Leuk voor jong en oud!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: berlin-s-nightlife
+  day: 10
+  title: Berlijns Nachtleven
+  content: >
+    Plan jouw spectaculaire nieuwjaarsfeest – de clubscene in Berlijn is beroemd, berucht en vooral onovertrefbaar. Van Berghain tot SO36, zie en wordt gezien in het spannende nachtleven van Berlijn.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: german-fairy-tale-route
+  image-credit: © DZT Deutsche Zentrale für Tourismus e.V. / Francesco Carovillano
+  day: 11
+  title: Sprookjesroute
+  content: >
+    Treed in de voetsporen van de gebroeders Grimm en ontdek het magische Duitse landschap tijdens een sprookjesroute: van middeleeuwse dorpjes tot kasteelruïnes en een betoverend landschap.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: tropical-island
+  day: 12
+  title: Tropical Island
+  image-credit: © Tropical Islands / -
+  content: >
+    Vergeet de koude grauwe winter - Bezoek Tropical Island net buiten Berlijn, neem een duik in een van de zwembaden en waan je in de tropen met zomerse temperaturen en palmbomen. Weer eens wat anders dan de typische Duitse winter!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: goslar-christmas-market
+  day: 13
+  title: Kerstmarkt van Goslar
+  content: >
+    Geniet van de middeleeuwse charme op de kerstmarkt in Goslar. In de weken voor kerst verandert de Altstadt van het UNESCO-stadje tot een heus kerstbos. Hier drink je je Feuerzangenbowle tussen ruim 50 naaldbomen.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: aachener-printen
+  day: 14
+  title: Aachener Printen
+  content: >
+    Aachener Printen zijn de ultieme feestelijke traktatie; hierdoor heeft Aken de bijnaam Sweet City gekregen. Probeer ze zelf!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: winterberg
+  day: 15
+  title: Winterberg
+  content: >
+    Voor sensationele pistes bedekt met poedersneeuw ga je naar Winterberg. Het grootste wintersportgebied van Noordrijn-Westfalen is de ideale bestemming voor een lang weekend winterpret. Vergeet de Alpen en ontdek Winterberg!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: moselle-valley
+  day: 16
+  title: Moezelvallei
+  content: >
+    De Moezelvallei staat bekend als de beste wijnregio van Duitsland. Rondom kerst worden de wijnkelders omgetoverd tot sfeervolle kerstmarkten. Hier proef je de lekkerste wijnen én vind je originele cadeautjes voor onder de boom.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: thuringia
+  day: 17
+  title: Thüringen
+  content: >
+    Dompel jezelf onder in het wonderlijke landschap van Thüringen - besneeuwde bossen vormen het perfecte decor voor een huskytocht door dit betoverende landschap.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: bad-kreuznach
+  day: 18
+  title: Bad Kreuznach
+  image-credit: © Gesundheit und Tourismus für Bad Kreuznach GmbH
+  content: >
+    Bad Kreuznach is een van de mooiste kuuroorden van Duitsland. Bezoek deze schilderachtige vallei voor wellnessbehandelingen waar je weer helemaal van opfrist.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: saarland
+  day: 19
+  title: Saarland
+  content: >
+    De prachtige regio Saarland is een walhalla voor foodies, hier vind je Michelin-koks in overvloed. Geniet van gastronomische gerechten in de beste restaurants.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: stollen
+  day: 20
+  title: Kerststol uit Dresden
+  image-credit: © Deutsche Zentrale für Tourismus e.V. / Knut Pflaumer
+  content: >
+    Bezoek het thuis van de kerststol en proef de smaak van een traditionele Duitse kerst. In Dresden wordt de stol heel serieus genomen; ga op zoek naar de gouden zegel van de Stollen Association die de authenticiteit aangeeft.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: leipzig
+  day: 21
+  title: Leipzig
+  content: >
+    Sluit het jaar in stijl af in Leipzig! Met de hipste clubscene heeft de stad alles in zich om te concurreren met Berlijn. Vergeet de hoofdstad, ga naar Leipzig!
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: apfelwein
+  day: 22
+  title: Apfelwein
+  content: >
+    Bezoek Frankfurt: stad van de appelwijn. Het warme drankje laat je winterhart gloeien terwijl je over de kerstmarkt slentert.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: schleswig-holstein
+  day: 23
+  title: Sleeswijk-Holstein
+  content: >
+    Sleeswijk-Holstein, de poort naar het noorden, is een eersteklas wellnessoord vol resorts. Ideaal voor een heerlijk ontspannen weekendje weg.
+  pages:
+    - id: advent-calendar
+
+
+- type: advent
+  id: merry-christmas
+  day: 24
+  title: Vrolijk Kerstfeest
+  content:
+  pages:
+    - id: advent-calendar
+
+
+

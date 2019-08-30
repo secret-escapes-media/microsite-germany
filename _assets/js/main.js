@@ -25,8 +25,8 @@ $(document).scroll(function(){ bgFade(); });
 var today = new Date();
 var currDay = today.getDate();
 
-if( today.getMonth() == '11'){
-  // if October (month -1)
+if( today.getMonth() == '7'){
+  // month -1
   $('.advent-day').each(function( index, el ){
     var dayNum = $( el ).attr('data-day');
 
@@ -48,3 +48,20 @@ if( today.getMonth() == '11'){
 }
 
 
+// Countdown for advent calendar on overview page
+var adventTile = '.advent';
+var startDate = $(adventTile).data('start');
+var endDate = $(adventTile).data('end');
+
+$('.advent-countdown').countdown(startDate, function(event) {
+  if( today.getMonth() != '7'){
+    $('.advent-countdown').removeClass('is-inactive');
+    $('.advent-message').hide();
+    $('.advent-link').hide();
+    $('.advent-countdown__days').html(event.strftime('%D'));
+    $('.advent-countdown__countdown').html(event.strftime('%H:%M:%S'));
+  }else{
+    $('.advent-countdown').hide();
+    $('.advent-message').removeClass('is-inactive');
+  }
+});

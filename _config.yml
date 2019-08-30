@@ -1,10 +1,10 @@
 
 # File paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/winter-in-germany" # the subpath of your site, e.g. /blog/
-img:     "/winter-in-germany/_assets/img"
-css:     "/winter-in-germany/_assets/css"
-js:      "/winter-in-germany/_assets/js"
+baseurl: "/2018/winter-in-germany" # the subpath of your site, e.g. /blog/
+img:     "/2018/winter-in-germany/_assets/img"
+css:     "/2018/winter-in-germany/_assets/css"
+js:      "/2018/winter-in-germany/_assets/js"
 
 # Build settings
 markdown: kramdown

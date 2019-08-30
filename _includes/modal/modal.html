@@ -1,6 +1,14 @@
 
 {% assign modal-items = site.data.modal.text | concat: site.data.modal.video %}
 
+{% if page.region == 'uk' %}
+  {% assign modal-items = modal-items | concat: site.data.modal.advent-uk %}
+{% elsif page.region == 'nl' %}
+  {% assign modal-items = modal-items | concat: site.data.modal.advent-nl %}
+{% elsif page.region == 'be' %}
+  {% assign modal-items = modal-items | concat: site.data.modal.advent-be %}
+{% endif %}
+
 <div class="js-modal modal is-closed">
   <div class="js-close-modal modal__close"></div>
 
