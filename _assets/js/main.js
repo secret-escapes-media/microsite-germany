@@ -22,30 +22,29 @@ $(document).scroll(function(){ bgFade(); });
     ADVENT CALENDAR
 ----------------------------------------------------*/
 
-var today = new Date();
-var currDay = today.getDate();
+// var today = new Date();
+// var currDay = today.getDate();
 
-if( today.getMonth() == '7'){
-  // month -1
-  $('.advent-day').each(function( index, el ){
-    var dayNum = $( el ).attr('data-day');
-
-    // disable all days after todays date
-    if( currDay < dayNum ){
-      $( el ).addClass('advent-day--inactive');
-      $( el ).find('.advent-day__link').remove();
-    }
-
-    // highlight current day
-    if( currDay == dayNum ){
-      $( el ).addClass('advent-day--today');
-    }
-  });
-}else{
-  $('.advent-day').each(function( index, el ){
-    $( el ).addClass('advent-day--inactive');
-  });
-}
+// if( today.getMonth() == '7'){
+// $('.advent-day').each(function( index, el ){
+//   var dayNum = $( el ).attr('data-day');
+//
+//   // disable all days after todays date
+//   if( currDay < dayNum ){
+//     $( el ).addClass('advent-day--inactive');
+//     $( el ).find('.advent-day__link').remove();
+//   }
+//
+//   // highlight current day
+//   if( currDay == dayNum ){
+//     $( el ).addClass('advent-day--today');
+//   }
+// });
+// }else{
+//   $('.advent-day').each(function( index, el ){
+//     $( el ).addClass('advent-day--inactive');
+//   });
+// }
 
 
 // Countdown for advent calendar on overview page
@@ -54,14 +53,18 @@ var startDate = $(adventTile).data('start');
 var endDate = $(adventTile).data('end');
 
 $('.advent-countdown').countdown(startDate, function(event) {
-  if( today.getMonth() != '7'){
-    $('.advent-countdown').removeClass('is-inactive');
-    $('.advent-message').hide();
-    $('.advent-link').hide();
-    $('.advent-countdown__days').html(event.strftime('%D'));
-    $('.advent-countdown__countdown').html(event.strftime('%H:%M:%S'));
-  }else{
-    $('.advent-countdown').hide();
-    $('.advent-message').removeClass('is-inactive');
-  }
+
+  $('.advent-countdown').hide();
+  $('.advent-message').removeClass('is-inactive');
+
+  // if( today.getMonth() != '7'){
+  //   $('.advent-countdown').removeClass('is-inactive');
+  //   $('.advent-message').hide();
+  //   $('.advent-link').hide();
+  //   $('.advent-countdown__days').html(event.strftime('%D'));
+  //   $('.advent-countdown__countdown').html(event.strftime('%H:%M:%S'));
+  // }else{
+  //   $('.advent-countdown').hide();
+  //   $('.advent-message').removeClass('is-inactive');
+  // }
 });
